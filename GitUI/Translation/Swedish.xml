@@ -130,9 +130,9 @@ Denna åtgärd kommer att utföras utan varning när en branch checkas ut.</Valu
           <Source>Application font</Source>
           <Value>Applikationen</Value>
         </TranslationItem>
-        <TranslationItem Name="label34" Property="Text" type="unfinished">
+        <TranslationItem Name="label34" Property="Text">
           <Source>Commit font</Source>
-          <Value />
+          <Value>Commit</Value>
         </TranslationItem>
         <TranslationItem Name="label44" Property="Text">
           <Source>Image size</Source>
@@ -282,10 +282,11 @@ Denna åtgärd kommer att utföras utan varning när en branch checkas ut.</Valu
           <Source>Git {0} is found on your computer.</Source>
           <Value>Git {0} hittades på din dator.</Value>
         </TranslationItem>
-        <TranslationItem Name="_kdiff3NotFoundAuto" Property="Text" type="unfinished">
+        <TranslationItem Name="_kdiff3NotFoundAuto" Property="Text">
           <Source>Path to kdiff3 could not be found automatically.
 Please make sure KDiff3 is installed or set path manually.</Source>
-          <Value />
+          <Value>Sökvägen till kdiff3 kunde inte hittas automatiskt.
+Kontrollera att kdiff3 är installerat eller sätt sökvägen manuellt.</Value>
         </TranslationItem>
         <TranslationItem Name="_kdiffAsDiffConfigured" Property="Text">
           <Source>KDiff3 is configured as difftool.</Source>
@@ -310,7 +311,7 @@ Please make sure KDiff3 is installed or set path manually.</Source>
         <TranslationItem Name="_linuxToolsShNotFound" Property="Text">
           <Source>The path to linux tools (sh) could not be found automatically.
 Please make sure there are linux tools installed (through msysgit or cygwin) or set the correct path manually.</Source>
-          <Value>Sökvägen till Linux-skal (sh) kunde inte hittas automatiskt.
+          <Value>Sökvägen till ett Linux-skal (sh) kunde inte hittas automatiskt.
 Kontrollera att det finns ett Linux-skal installerat (genom msysgit eller cygwin) eller sätt sökvägen manuellt.</Value>
         </TranslationItem>
         <TranslationItem Name="_linuxToolsShNotFoundCaption" Property="Text">
@@ -329,116 +330,119 @@ Kontrollera att det finns ett Linux-skal installerat (genom msysgit eller cygwin
           <Source>There is a custom mergetool configured.</Source>
           <Value>Det finns ett anpassat merge-verktyg konfigurerat.</Value>
         </TranslationItem>
-        <TranslationItem Name="_mergeToolXConfiguredNeedsCmd" Property="Text" type="unfinished">
+        <TranslationItem Name="_mergeToolXConfiguredNeedsCmd" Property="Text">
           <Source>{0} is configured as mergetool, this is a custom mergetool and needs a custom cmd to be configured.</Source>
-          <Value />
+          <Value>{0} är valt som merge-verktyg. Detta är ett anpassat merge-verktyg och behöver därför ett anpassat kommando.</Value>
         </TranslationItem>
-        <TranslationItem Name="_noCredentialsHelperInstalled" Property="Text" type="unfinished">
+        <TranslationItem Name="_noCredentialsHelperInstalled" Property="Text">
           <Source>No credential helper installed.</Source>
-          <Value />
+          <Value>Inget hjälpprogram för inloggningsuppgifter installerat.</Value>
         </TranslationItem>
-        <TranslationItem Name="_noCredentialsHelperInstalledTryGCS" Property="Text" type="unfinished">
+        <TranslationItem Name="_noCredentialsHelperInstalledTryGCS" Property="Text">
           <Source>No credential helper could be installed. Try to install git-credential-winstore.exe.</Source>
-          <Value />
+          <Value>Inget hjälpprogram för inloggningsuppgifter installerat. Försök installera git-credential-winstore.exe.</Value>
         </TranslationItem>
-        <TranslationItem Name="_noDiffToolConfigured" Property="Text" type="unfinished">
+        <TranslationItem Name="_noDiffToolConfigured" Property="Text">
           <Source>There is no difftool configured. Do you want to configure kdiff3 as your difftool?
 Select no if you want to configure a different difftool yourself.</Source>
-          <Value />
+          <Value>Det finns inget diff-verktyg angivet. Vill du välja kdiff3 som ditt diff-verktyg?
+Välj nej om du vill ange ett annat diff-verktyg själv.</Value>
         </TranslationItem>
         <TranslationItem Name="_noDiffToolConfiguredCaption" Property="Text" type="unfinished">
           <Source>Difftool</Source>
           <Value>Diff-verktyg</Value>
         </TranslationItem>
-        <TranslationItem Name="_noEmailSet" Property="Text" type="unfinished">
+        <TranslationItem Name="_noEmailSet" Property="Text">
           <Source>You need to configure a username and an email address.</Source>
-          <Value />
+          <Value>Du behöver ange ett användarnamn och en e-postadress.</Value>
         </TranslationItem>
-        <TranslationItem Name="_noLanguageConfigured" Property="Text" type="unfinished">
+        <TranslationItem Name="_noLanguageConfigured" Property="Text">
           <Source>There is no language configured for Git Extensions.</Source>
-          <Value />
+          <Value>Det finns inget språk angivet för Git Extensions.</Value>
         </TranslationItem>
-        <TranslationItem Name="_noMergeToolConfigured" Property="Text" type="unfinished">
+        <TranslationItem Name="_noMergeToolConfigured" Property="Text">
           <Source>There is no mergetool configured. Do you want to configure kdiff3 as your mergetool?
 Select no if you want to configure a different mergetool yourself.</Source>
-          <Value />
+          <Value>Det finns inget merge-verktyg angivet. Vill du använda kdiff3 som ditt merge-verktyg?
+Välj nej om du vill ange ett annat merge-verktyg själv.</Value>
         </TranslationItem>
         <TranslationItem Name="_noMergeToolConfiguredCaption" Property="Text" type="unfinished">
           <Source>Mergetool</Source>
           <Value>Merge-verktyg</Value>
         </TranslationItem>
-        <TranslationItem Name="_opensshUsed" Property="Text" type="unfinished">
+        <TranslationItem Name="_opensshUsed" Property="Text">
           <Source>Default SSH client, OpenSSH, will be used. (commandline window will appear on pull, push and clone operations)</Source>
-          <Value />
+          <Value>Standard-SSH-klienten OpenSSH kommer att användas. (Kommandofönster visas vid pull, push och kloning.)</Value>
         </TranslationItem>
-        <TranslationItem Name="_plinkputtyGenpageantNotFound" Property="Text" type="unfinished">
+        <TranslationItem Name="_plinkputtyGenpageantNotFound" Property="Text">
           <Source>PuTTY is configured as SSH client but cannot find plink.exe, puttygen.exe or pageant.exe.</Source>
-          <Value />
+          <Value>PuTTY är valt som SSH-klient men plink.exe, puttygen.exe eller pageant.exe kan ej hittas.</Value>
         </TranslationItem>
-        <TranslationItem Name="_puttyConfigured" Property="Text" type="unfinished">
+        <TranslationItem Name="_puttyConfigured" Property="Text">
           <Source>SSH client PuTTY is configured properly.</Source>
-          <Value />
+          <Value>SSH-klienten PuTTY är korrekt konfigurerad.</Value>
         </TranslationItem>
-        <TranslationItem Name="_puttyFoundAuto" Property="Text" type="unfinished">
+        <TranslationItem Name="_puttyFoundAuto" Property="Text">
           <Source>All paths needed for PuTTY could be automatically found and are set.</Source>
-          <Value />
+          <Value>Alla sökvägar som PuTTY behöver hittades automatiskt och är angivna.</Value>
         </TranslationItem>
-        <TranslationItem Name="_registryKeyGitExtensionsCorrect" Property="Text" type="unfinished">
+        <TranslationItem Name="_registryKeyGitExtensionsCorrect" Property="Text">
           <Source>GitExtensions is properly registered.</Source>
-          <Value />
+          <Value>Git Extensions är korrekt registrerat.</Value>
         </TranslationItem>
-        <TranslationItem Name="_registryKeyGitExtensionsFaulty" Property="Text" type="unfinished">
+        <TranslationItem Name="_registryKeyGitExtensionsFaulty" Property="Text">
           <Source>Invalid installation directory stored in [Software\GitExtensions\GitExtensions\InstallDir].</Source>
-          <Value />
+          <Value>Ogiltig installationskatalog sparad i [Software\GitExtensions\GitExtensions\InstallDir].</Value>
         </TranslationItem>
-        <TranslationItem Name="_registryKeyGitExtensionsMissing" Property="Text" type="unfinished">
+        <TranslationItem Name="_registryKeyGitExtensionsMissing" Property="Text">
           <Source>Registry entry missing [Software\GitExtensions\GitExtensions\InstallDir].</Source>
-          <Value />
+          <Value>Registernyckelposten [Software\GitExtensions\GitExtensions\InstallDir] saknas.</Value>
         </TranslationItem>
-        <TranslationItem Name="_shCanBeRun" Property="Text" type="unfinished">
+        <TranslationItem Name="_shCanBeRun" Property="Text">
           <Source>Command sh can be run using: {0}sh</Source>
-          <Value />
+          <Value>Kommandot sh kan köras genom: {0}sh</Value>
         </TranslationItem>
         <TranslationItem Name="_shCanBeRunCaption" Property="Text" type="unfinished">
           <Source>Locate linux tools</Source>
           <Value>Lokalisera Linux-skal</Value>
         </TranslationItem>
-        <TranslationItem Name="_shellExtNeedsToBeRegistered" Property="Text" type="unfinished">
+        <TranslationItem Name="_shellExtNeedsToBeRegistered" Property="Text">
           <Source>{0} needs to be registered in order to use the shell extensions.</Source>
-          <Value />
+          <Value>{0} behöver vara registrerat för att kunna använda Utforskar-tillägg.</Value>
         </TranslationItem>
-        <TranslationItem Name="_shellExtNoInstalled" Property="Text" type="unfinished">
+        <TranslationItem Name="_shellExtNoInstalled" Property="Text">
           <Source>Shell extensions are not installed. Run the installer to install the shell extensions.</Source>
-          <Value />
+          <Value>Utforskar-tillägg är ej installerat. Kör installationsprogrammet för att installera Utforksar-tillägg.</Value>
         </TranslationItem>
-        <TranslationItem Name="_shellExtRegistered" Property="Text" type="unfinished">
+        <TranslationItem Name="_shellExtRegistered" Property="Text">
           <Source>Shell extensions registered properly.</Source>
-          <Value />
+          <Value>Utforskar-tillägg korrekt registrerat.</Value>
         </TranslationItem>
-        <TranslationItem Name="_solveGitCommandFailed" Property="Text" type="unfinished">
+        <TranslationItem Name="_solveGitCommandFailed" Property="Text">
           <Source>The command to run git could not be determined automatically.
 Please make sure git (msysgit or cygwin) is installed or set the correct command manually.</Source>
-          <Value />
+          <Value>Kommandot för att köra git kunde inte hittas automatiskt.
+Vänligen kontrollera att git (msysgit eller cygwin) är installerat eller ange rätt kommando manuellt.</Value>
         </TranslationItem>
         <TranslationItem Name="_solveGitCommandFailedCaption" Property="Text" type="unfinished">
           <Source>Locate git</Source>
           <Value>Lokalisera git</Value>
         </TranslationItem>
-        <TranslationItem Name="_unknownSshClient" Property="Text" type="unfinished">
+        <TranslationItem Name="_unknownSshClient" Property="Text">
           <Source>Unknown SSH client configured: {0}.</Source>
-          <Value />
+          <Value>Okänd SSH-klient konfigurerad: {0}.</Value>
         </TranslationItem>
-        <TranslationItem Name="_wrongGitVersion" Property="Text" type="unfinished">
+        <TranslationItem Name="_wrongGitVersion" Property="Text">
           <Source>Git found but version {0} is not supported. Upgrade to version {1} or later</Source>
-          <Value />
+          <Value>Git hittades, men version {0} stöds ej. Uppgradera till version {1} eller senare.</Value>
         </TranslationItem>
         <TranslationItem Name="gitCredentialWinStore_Fix" Property="Text" type="unfinished">
           <Source>Repair</Source>
           <Value>Reparera</Value>
         </TranslationItem>
-        <TranslationItem Name="label11" Property="Text" type="unfinished">
+        <TranslationItem Name="label11" Property="Text">
           <Source>The checklist below validates the basic settings needed for GitExtensions to work properly.</Source>
-          <Value />
+          <Value>Checklistan nedan kontrollerar de grundläggande inställningarna som behövs för att Git Extensions ska fungera korrekt.</Value>
         </TranslationItem>
         <TranslationItem Name="translationConfig_Fix" Property="Text" type="unfinished">
           <Source>Repair</Source>
@@ -450,115 +454,115 @@ Please make sure git (msysgit or cygwin) is installed or set the correct command
       <translationItems>
         <TranslationItem Name="$this" Property="Text" type="unfinished">
           <Source>Colors</Source>
-          <Value />
+          <Value>Färger</Value>
         </TranslationItem>
         <TranslationItem Name="BlueIcon" Property="Text" type="unfinished">
           <Source>Blue</Source>
-          <Value />
+          <Value>Blå</Value>
         </TranslationItem>
-        <TranslationItem Name="BranchBorders" Property="Text" type="unfinished">
+        <TranslationItem Name="BranchBorders" Property="Text">
           <Source>Draw branch borders</Source>
-          <Value />
+          <Value>Rita kanter på grenar</Value>
         </TranslationItem>
         <TranslationItem Name="DefaultIcon" Property="Text" type="unfinished">
           <Source>Default</Source>
-          <Value />
+          <Value>Standard</Value>
         </TranslationItem>
-        <TranslationItem Name="DrawNonRelativesGray" Property="Text" type="unfinished">
+        <TranslationItem Name="DrawNonRelativesGray" Property="Text">
           <Source>Draw non relatives graph gray</Source>
-          <Value />
+          <Value>Gråa ut ovidkommande grenar</Value>
         </TranslationItem>
-        <TranslationItem Name="DrawNonRelativesTextGray" Property="Text" type="unfinished">
+        <TranslationItem Name="DrawNonRelativesTextGray" Property="Text">
           <Source>Draw non relatives text gray</Source>
-          <Value />
+          <Value>Gråa ut commit-meddelande för ovidkommande grenar</Value>
         </TranslationItem>
-        <TranslationItem Name="GreenIcon" Property="Text" type="unfinished">
+        <TranslationItem Name="GreenIcon" Property="Text">
           <Source>Green</Source>
-          <Value />
+          <Value>Grön</Value>
         </TranslationItem>
         <TranslationItem Name="LightblueIcon" Property="Text" type="unfinished">
           <Source>Light blue</Source>
-          <Value />
+          <Value>Ljusblå</Value>
         </TranslationItem>
-        <TranslationItem Name="MulticolorBranches" Property="Text" type="unfinished">
+        <TranslationItem Name="MulticolorBranches" Property="Text">
           <Source>Multicolor branches</Source>
-          <Value />
+          <Value>Flerfärga grenar</Value>
         </TranslationItem>
-        <TranslationItem Name="PurpleIcon" Property="Text" type="unfinished">
+        <TranslationItem Name="PurpleIcon" Property="Text">
           <Source>Purple</Source>
-          <Value />
+          <Value>Lila</Value>
         </TranslationItem>
-        <TranslationItem Name="RandomIcon" Property="Text" type="unfinished">
+        <TranslationItem Name="RandomIcon" Property="Text">
           <Source>Random</Source>
-          <Value />
+          <Value>Slumpvis</Value>
         </TranslationItem>
-        <TranslationItem Name="RedIcon" Property="Text" type="unfinished">
+        <TranslationItem Name="RedIcon" Property="Text">
           <Source>Red</Source>
-          <Value />
+          <Value>Röd</Value>
         </TranslationItem>
-        <TranslationItem Name="StripedBanchChange" Property="Text" type="unfinished">
+        <TranslationItem Name="StripedBanchChange" Property="Text">
           <Source>Striped branch change</Source>
-          <Value />
+          <Value>Gör linje randig när flera grenar sammanfaller</Value>
         </TranslationItem>
-        <TranslationItem Name="YellowIcon" Property="Text" type="unfinished">
+        <TranslationItem Name="YellowIcon" Property="Text">
           <Source>Yellow</Source>
-          <Value />
+          <Value>Gul</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox3" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox3" Property="Text">
           <Source>Difference view</Source>
-          <Value />
+          <Value>Differensvy</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox4" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox4" Property="Text">
           <Source>Revision graph</Source>
-          <Value />
+          <Value>Revisionsgraf</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox5" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox5" Property="Text">
           <Source>Application Icon</Source>
-          <Value />
+          <Value>Applikationsikon</Value>
         </TranslationItem>
-        <TranslationItem Name="label25" Property="Text" type="unfinished">
+        <TranslationItem Name="label25" Property="Text">
           <Source>Color tag</Source>
-          <Value />
+          <Value>Färg på tagg</Value>
         </TranslationItem>
-        <TranslationItem Name="label27" Property="Text" type="unfinished">
+        <TranslationItem Name="label27" Property="Text">
           <Source>Color removed line</Source>
-          <Value />
+          <Value>Färg på borttagen rad</Value>
         </TranslationItem>
-        <TranslationItem Name="label29" Property="Text" type="unfinished">
+        <TranslationItem Name="label29" Property="Text">
           <Source>Color added line</Source>
-          <Value />
+          <Value>Färg på tillagd rad</Value>
         </TranslationItem>
-        <TranslationItem Name="label31" Property="Text" type="unfinished">
+        <TranslationItem Name="label31" Property="Text">
           <Source>Color section</Source>
-          <Value />
+          <Value>Färg på sektion</Value>
         </TranslationItem>
-        <TranslationItem Name="label32" Property="Text" type="unfinished">
+        <TranslationItem Name="label32" Property="Text">
           <Source>Color branch</Source>
-          <Value />
+          <Value>Färg på gren</Value>
         </TranslationItem>
-        <TranslationItem Name="label33" Property="Text" type="unfinished">
+        <TranslationItem Name="label33" Property="Text">
           <Source>Color remote branch</Source>
-          <Value />
+          <Value>Färg på fjärrgren</Value>
         </TranslationItem>
-        <TranslationItem Name="label36" Property="Text" type="unfinished">
+        <TranslationItem Name="label36" Property="Text">
           <Source>Color other label</Source>
-          <Value />
+          <Value>Färg på annan etikett</Value>
         </TranslationItem>
-        <TranslationItem Name="label43" Property="Text" type="unfinished">
+        <TranslationItem Name="label43" Property="Text">
           <Source>Color removed line highlighting</Source>
-          <Value />
+          <Value>Färg på borttagen rad (markering)</Value>
         </TranslationItem>
-        <TranslationItem Name="label45" Property="Text" type="unfinished">
+        <TranslationItem Name="label45" Property="Text">
           <Source>Color added line highlighting</Source>
-          <Value />
+          <Value>Färg på tillagd rad (markering)</Value>
         </TranslationItem>
-        <TranslationItem Name="label54" Property="Text" type="unfinished">
+        <TranslationItem Name="label54" Property="Text">
           <Source>Icon style</Source>
-          <Value />
+          <Value>Ikonstil</Value>
         </TranslationItem>
-        <TranslationItem Name="label55" Property="Text" type="unfinished">
+        <TranslationItem Name="label55" Property="Text">
           <Source>Icon color</Source>
-          <Value />
+          <Value>Färg på ikon</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -700,29 +704,29 @@ Värde:  {2} = {3}</Value>
           <Source>Clear</Source>
           <Value>Rensa</Value>
         </TranslationItem>
-        <TranslationItem Name="bResetToDefaults" Property="Text" type="unfinished">
+        <TranslationItem Name="bResetToDefaults" Property="Text">
           <Source>Reset all Hotkeys to defaults</Source>
-          <Value />
+          <Value>Återställ alla kortkommandon till standard</Value>
         </TranslationItem>
-        <TranslationItem Name="columnCommand" Property="Text" type="unfinished">
+        <TranslationItem Name="columnCommand" Property="Text">
           <Source>Command</Source>
-          <Value />
+          <Value>Kommando</Value>
         </TranslationItem>
-        <TranslationItem Name="columnKey" Property="Text" type="unfinished">
+        <TranslationItem Name="columnKey" Property="Text">
           <Source>Key</Source>
-          <Value />
+          <Value>Knapptryckning</Value>
         </TranslationItem>
-        <TranslationItem Name="lHotkey" Property="Text" type="unfinished">
+        <TranslationItem Name="lHotkey" Property="Text">
           <Source>Hotkey</Source>
-          <Value />
+          <Value>Kortkommando</Value>
         </TranslationItem>
-        <TranslationItem Name="lHotkeyableItems" Property="Text" type="unfinished">
+        <TranslationItem Name="lHotkeyableItems" Property="Text">
           <Source>Hotkeyable Items</Source>
-          <Value />
+          <Value>Saker som kan ha kortkommando</Value>
         </TranslationItem>
         <TranslationItem Name="txtHotkey" Property="Text" type="unfinished">
           <Source>None</Source>
-          <Value />
+          <Value>Ingen</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -911,10 +915,6 @@ Do you want to open it?</Source>
         <TranslationItem Name="removeToolStripMenuItem" Property="Text">
           <Source>Remove</Source>
           <Value>Radera</Value>
-        </TranslationItem>
-        <TranslationItem Name="_showCurrentBranch" Property="Text" type="obsolete">
-          <Source>Show current branch</Source>
-          <Value>Visa aktuell gren</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -1551,9 +1551,9 @@ You will have push access. {2}</Source>
           <Source>Zip file (*.zip)</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="buttonArchiveRevision" Property="Text" type="unfinished">
+        <TranslationItem Name="buttonArchiveRevision" Property="Text">
           <Source>Save as...</Source>
-          <Value />
+          <Value>Spara som...</Value>
         </TranslationItem>
         <TranslationItem Name="checkBoxPathFilter" Property="Text" type="unfinished">
           <Source>Archive specific paths only</Source>
@@ -1641,29 +1641,29 @@ compare with first:</Source>
     </TranslationCategory>
     <TranslationCategory Name="FormBrowse">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Git Extensions</Source>
-          <Value />
+          <Value>Git Extensions</Value>
         </TranslationItem>
         <TranslationItem Name="CommitInfoTabPage" Property="Text" type="unfinished">
           <Source>Commit</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="DiffTabPage" Property="Text" type="unfinished">
+        <TranslationItem Name="DiffTabPage" Property="Text">
           <Source>Diff</Source>
-          <Value />
+          <Value>Differens</Value>
         </TranslationItem>
         <TranslationItem Name="EditSettings" Property="ToolTipText" type="unfinished">
           <Source>Settings</Source>
           <Value>Inställningar</Value>
         </TranslationItem>
-        <TranslationItem Name="GitBash" Property="ToolTipText" type="unfinished">
+        <TranslationItem Name="GitBash" Property="ToolTipText">
           <Source>Git bash</Source>
-          <Value />
+          <Value>Git bash</Value>
         </TranslationItem>
         <TranslationItem Name="PuTTYToolStripMenuItem" Property="Text" type="unfinished">
           <Source>PuTTY</Source>
-          <Value />
+          <Value>PuTTY</Value>
         </TranslationItem>
         <TranslationItem Name="RefreshButton" Property="ToolTipText" type="unfinished">
           <Source>Refresh</Source>
@@ -1681,17 +1681,17 @@ compare with first:</Source>
           <Source>SVN Rebase</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="TreeTabPage" Property="Text" type="unfinished">
+        <TranslationItem Name="TreeTabPage" Property="Text">
           <Source>File tree</Source>
-          <Value />
+          <Value>Filträd</Value>
         </TranslationItem>
         <TranslationItem Name="_alwaysShowCheckoutDlgStr" Property="Text" type="unfinished">
           <Source>Always show checkout dialog</Source>
           <Value>Visa alltid utcheckningsdialog</Value>
         </TranslationItem>
-        <TranslationItem Name="_configureWorkingDirMenu" Property="Text" type="unfinished">
+        <TranslationItem Name="_configureWorkingDirMenu" Property="Text">
           <Source>Configure this menu</Source>
-          <Value />
+          <Value>Konfigurera denna meny</Value>
         </TranslationItem>
         <TranslationItem Name="_createPullRequestsToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Create pull requests...</Source>
@@ -1709,17 +1709,17 @@ compare with first:</Source>
           <Source>There are unresolved merge conflicts!</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="_indexLockDeleted" Property="Text" type="unfinished">
+        <TranslationItem Name="_indexLockDeleted" Property="Text">
           <Source>index.lock deleted.</Source>
-          <Value />
+          <Value>index.lock borttagen.</Value>
         </TranslationItem>
-        <TranslationItem Name="_indexLockNotFound" Property="Text" type="unfinished">
+        <TranslationItem Name="_indexLockNotFound" Property="Text">
           <Source>index.lock not found at:</Source>
-          <Value />
+          <Value>index.lock hittas ej i:</Value>
         </TranslationItem>
-        <TranslationItem Name="_noBranchTitle" Property="Text" type="unfinished">
+        <TranslationItem Name="_noBranchTitle" Property="Text">
           <Source>no branch</Source>
-          <Value />
+          <Value>ingen gren</Value>
         </TranslationItem>
         <TranslationItem Name="_noReposHostFound" Property="Text" type="unfinished">
           <Source>Could not find any relevant repository hosts for the currently open repository.</Source>
@@ -1745,25 +1745,25 @@ compare with first:</Source>
           <Source>(Repository hosts)</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="_saveFileFilterAllFiles" Property="Text" type="unfinished">
+        <TranslationItem Name="_saveFileFilterAllFiles" Property="Text">
           <Source>All files</Source>
-          <Value />
+          <Value>Alla filer</Value>
         </TranslationItem>
-        <TranslationItem Name="_saveFileFilterCurrentFormat" Property="Text" type="unfinished">
+        <TranslationItem Name="_saveFileFilterCurrentFormat" Property="Text">
           <Source>Current format</Source>
-          <Value />
+          <Value>Aktuellt format</Value>
         </TranslationItem>
         <TranslationItem Name="_stashCount" Property="Text" type="unfinished">
           <Source>{0} saved {1}</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="_stashPlural" Property="Text" type="unfinished">
+        <TranslationItem Name="_stashPlural" Property="Text">
           <Source>stashes</Source>
-          <Value />
+          <Value>gömställen</Value>
         </TranslationItem>
-        <TranslationItem Name="_stashSingular" Property="Text" type="unfinished">
+        <TranslationItem Name="_stashSingular" Property="Text">
           <Source>stash</Source>
-          <Value />
+          <Value>gömställe</Value>
         </TranslationItem>
         <TranslationItem Name="_updateCurrentSubmodule" Property="Text" type="unfinished">
           <Source>Update current submodule</Source>
@@ -1777,53 +1777,53 @@ compare with first:</Source>
           <Source>Your are in the middle of a bisect</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="_warningMiddleOfPatchApply" Property="Text" type="unfinished">
+        <TranslationItem Name="_warningMiddleOfPatchApply" Property="Text">
           <Source>You are in the middle of a patch apply</Source>
-          <Value />
+          <Value>Du är i mitten av applicering av en buggfix</Value>
         </TranslationItem>
         <TranslationItem Name="_warningMiddleOfRebase" Property="Text" type="unfinished">
           <Source>You are in the middle of a rebase</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="aBToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="aBToolStripMenuItem" Property="Text">
           <Source>A &lt;--&gt; B</Source>
-          <Value />
+          <Value>A &lt;--&gt; B</Value>
         </TranslationItem>
-        <TranslationItem Name="aLocalToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="aLocalToolStripMenuItem" Property="Text">
           <Source>A &lt;--&gt; Working dir</Source>
-          <Value />
+          <Value>A &lt;--&gt; Arbetskatalog</Value>
         </TranslationItem>
         <TranslationItem Name="aboutToolStripMenuItem" Property="Text" type="unfinished">
           <Source>About</Source>
           <Value>Om</Value>
         </TranslationItem>
-        <TranslationItem Name="applyPatchToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="applyPatchToolStripMenuItem" Property="Text">
           <Source>Apply patch...</Source>
-          <Value />
+          <Value>Applicera buggfix...</Value>
         </TranslationItem>
-        <TranslationItem Name="archiveToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="archiveToolStripMenuItem" Property="Text">
           <Source>Archive revision...</Source>
-          <Value />
+          <Value>Arkivera revision...</Value>
         </TranslationItem>
         <TranslationItem Name="authorToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Author</Source>
           <Value>Upphovsperson</Value>
         </TranslationItem>
-        <TranslationItem Name="bLocalToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="bLocalToolStripMenuItem" Property="Text">
           <Source>B &lt;--&gt; Working dir</Source>
-          <Value />
+          <Value>B &lt;--&gt; Arbetskatalog</Value>
         </TranslationItem>
         <TranslationItem Name="bisectToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Bisect...</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="blameToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="blameToolStripMenuItem" Property="Text">
           <Source>Blame</Source>
-          <Value />
+          <Value>Klandra</Value>
         </TranslationItem>
-        <TranslationItem Name="blameToolStripMenuItem1" Property="Text" type="unfinished">
+        <TranslationItem Name="blameToolStripMenuItem1" Property="Text">
           <Source>Blame</Source>
-          <Value />
+          <Value>Klandra</Value>
         </TranslationItem>
         <TranslationItem Name="branchSelect" Property="Text" type="unfinished">
           <Source>Branch</Source>
@@ -1834,13 +1834,13 @@ compare with first:</Source>
           <OldSource>Create branch</OldSource>
           <Value>Skapa gren</Value>
         </TranslationItem>
-        <TranslationItem Name="changelogToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="changelogToolStripMenuItem" Property="Text">
           <Source>Changelog</Source>
-          <Value />
+          <Value>Ändringshistorik</Value>
         </TranslationItem>
-        <TranslationItem Name="checkForUpdatesToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="checkForUpdatesToolStripMenuItem" Property="Text">
           <Source>Check for updates</Source>
-          <Value />
+          <Value>Kolla efter uppdateringar</Value>
         </TranslationItem>
         <TranslationItem Name="checkoutBranchToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Checkout branch...</Source>
@@ -1857,9 +1857,9 @@ compare with first:</Source>
           <OldSource>Cherry pick</OldSource>
           <Value>Välj ut</Value>
         </TranslationItem>
-        <TranslationItem Name="cleanupToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="cleanupToolStripMenuItem" Property="Text">
           <Source>Clean working tree...</Source>
-          <Value />
+          <Value>Rensa arbetsträd...</Value>
         </TranslationItem>
         <TranslationItem Name="cloneSVNToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Clone SVN repository...</Source>
@@ -1871,17 +1871,17 @@ compare with first:</Source>
           <OldSource>Clone repository</OldSource>
           <Value>Klona förvaring</Value>
         </TranslationItem>
-        <TranslationItem Name="closeToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="closeToolStripMenuItem" Property="Text">
           <Source>Close (go to Dashboard)</Source>
-          <Value />
+          <Value>Stäng (gå till instrumentpanel)</Value>
         </TranslationItem>
-        <TranslationItem Name="collapseAllToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="collapseAllToolStripMenuItem" Property="Text">
           <Source>Collapse all</Source>
-          <Value />
+          <Value>Fäll ihop allt</Value>
         </TranslationItem>
-        <TranslationItem Name="commandsToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="commandsToolStripMenuItem" Property="Text">
           <Source>Commands</Source>
-          <Value />
+          <Value>Kommandon</Value>
         </TranslationItem>
         <TranslationItem Name="commitToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Commit...</Source>
@@ -1899,41 +1899,41 @@ compare with first:</Source>
           <Source>Committer</Source>
           <Value>Commitare</Value>
         </TranslationItem>
-        <TranslationItem Name="compressGitDatabaseToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="compressGitDatabaseToolStripMenuItem" Property="Text">
           <Source>Compress git database</Source>
-          <Value />
+          <Value>Komprimera git-databas</Value>
         </TranslationItem>
-        <TranslationItem Name="copyFilenameToClipboardToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="copyFilenameToClipboardToolStripMenuItem" Property="Text">
           <Source>Copy full path</Source>
-          <Value />
+          <Value>Kopiera full sökväg</Value>
         </TranslationItem>
-        <TranslationItem Name="copyFilenameToClipboardToolStripMenuItem1" Property="Text" type="unfinished">
+        <TranslationItem Name="copyFilenameToClipboardToolStripMenuItem1" Property="Text">
           <Source>Copy full path(s)</Source>
-          <Value />
+          <Value>Kopiera full(a) sökväg(ar)</Value>
         </TranslationItem>
-        <TranslationItem Name="dashboardToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="dashboardToolStripMenuItem" Property="Text">
           <Source>Dashboard</Source>
-          <Value />
+          <Value>Instrumentpanel</Value>
         </TranslationItem>
-        <TranslationItem Name="deleteBranchToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="deleteBranchToolStripMenuItem" Property="Text">
           <Source>Delete branch...</Source>
-          <Value />
+          <Value>Ta bort gren...</Value>
         </TranslationItem>
-        <TranslationItem Name="deleteIndexlockToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="deleteIndexlockToolStripMenuItem" Property="Text">
           <Source>Delete index.lock</Source>
-          <Value />
+          <Value>Ta bort index.lock</Value>
         </TranslationItem>
-        <TranslationItem Name="deleteTagToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="deleteTagToolStripMenuItem" Property="Text">
           <Source>Delete tag...</Source>
-          <Value />
+          <Value>Ta bort tagg...</Value>
         </TranslationItem>
         <TranslationItem Name="diffContainsToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Diff contains (SLOW)</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="diffShowInFileTreeToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="diffShowInFileTreeToolStripMenuItem" Property="Text">
           <Source>Show in File tree</Source>
-          <Value />
+          <Value>Visa i filträd</Value>
         </TranslationItem>
         <TranslationItem Name="directoryIsNotAValidRepository" Property="Text" type="unfinished">
           <Source>The selected item is not a valid git repository.
@@ -1949,37 +1949,37 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Donate</Source>
           <Value>Donera</Value>
         </TranslationItem>
-        <TranslationItem Name="dontSetAsDefaultToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="dontSetAsDefaultToolStripMenuItem" Property="Text">
           <Source>Don't set as default</Source>
-          <Value />
+          <Value>Sätt ej som standard</Value>
         </TranslationItem>
         <TranslationItem Name="editCheckedOutFileToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Edit working dir file</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="editLocalGitConfigToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="editLocalGitConfigToolStripMenuItem" Property="Text">
           <Source>Edit .git/config</Source>
-          <Value />
+          <Value>Redigera .git/config</Value>
         </TranslationItem>
-        <TranslationItem Name="editgitattributesToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="editgitattributesToolStripMenuItem" Property="Text">
           <Source>Edit .gitattributes</Source>
-          <Value />
+          <Value>Redigera .gitattributes</Value>
         </TranslationItem>
-        <TranslationItem Name="editgitignoreToolStripMenuItem1" Property="Text" type="unfinished">
+        <TranslationItem Name="editgitignoreToolStripMenuItem1" Property="Text">
           <Source>Edit .gitignore</Source>
-          <Value />
+          <Value>Redigera .gitignore</Value>
         </TranslationItem>
-        <TranslationItem Name="editmailmapToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="editmailmapToolStripMenuItem" Property="Text">
           <Source>Edit .mailmap</Source>
-          <Value />
+          <Value>Redigera .mailmap</Value>
         </TranslationItem>
-        <TranslationItem Name="exitToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="exitToolStripMenuItem" Property="Text">
           <Source>Exit</Source>
-          <Value />
+          <Value>Avsluta</Value>
         </TranslationItem>
-        <TranslationItem Name="expandAllToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="expandAllToolStripMenuItem" Property="Text">
           <Source>Expand all (takes a while on large trees)</Source>
-          <Value />
+          <Value>Expandera allt (tar lång tid på stora träd)</Value>
         </TranslationItem>
         <TranslationItem Name="fetchAllToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Fetch all</Source>
@@ -1989,33 +1989,33 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Fetch</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="fileExplorerToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="fileExplorerToolStripMenuItem" Property="Text">
           <Source>File Explorer</Source>
-          <Value />
+          <Value>Utforskaren</Value>
         </TranslationItem>
-        <TranslationItem Name="fileHistoryDiffToolstripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="fileHistoryDiffToolstripMenuItem" Property="Text">
           <Source>File history</Source>
-          <Value />
+          <Value>Filhistorik</Value>
         </TranslationItem>
-        <TranslationItem Name="fileHistoryToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="fileHistoryToolStripMenuItem" Property="Text">
           <Source>File history</Source>
-          <Value />
+          <Value>Filhistorik</Value>
         </TranslationItem>
-        <TranslationItem Name="fileToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="fileToolStripMenuItem" Property="Text">
           <Source>Start</Source>
-          <Value />
+          <Value>Start</Value>
         </TranslationItem>
-        <TranslationItem Name="fileTreeArchiveToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="fileTreeArchiveToolStripMenuItem" Property="Text">
           <Source>Archive...</Source>
-          <Value />
+          <Value>Arkivera...</Value>
         </TranslationItem>
-        <TranslationItem Name="fileTreeCleanWorkingTreeToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="fileTreeCleanWorkingTreeToolStripMenuItem" Property="Text">
           <Source>Clean working tree...</Source>
-          <Value />
+          <Value>Rensa arbetsträd...</Value>
         </TranslationItem>
-        <TranslationItem Name="fileTreeOpenContainingFolderToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="fileTreeOpenContainingFolderToolStripMenuItem" Property="Text">
           <Source>Open containing folder</Source>
-          <Value />
+          <Value>Öppna innehållande katalog</Value>
         </TranslationItem>
         <TranslationItem Name="findInDiffToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Find</Source>
@@ -2025,29 +2025,29 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Find</Source>
           <Value>Sök</Value>
         </TranslationItem>
-        <TranslationItem Name="formatPatchToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="formatPatchToolStripMenuItem" Property="Text">
           <Source>Format patch...</Source>
-          <Value />
+          <Value>Skapa buggfix...</Value>
         </TranslationItem>
-        <TranslationItem Name="generateOrImportKeyToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="generateOrImportKeyToolStripMenuItem" Property="Text">
           <Source>Generate or import key</Source>
-          <Value />
+          <Value>Generera eller importera nyckel</Value>
         </TranslationItem>
-        <TranslationItem Name="gitBashToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="gitBashToolStripMenuItem" Property="Text">
           <Source>Git bash</Source>
-          <Value />
+          <Value>Git bash</Value>
         </TranslationItem>
-        <TranslationItem Name="gitGUIToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="gitGUIToolStripMenuItem" Property="Text">
           <Source>Git GUI</Source>
-          <Value />
+          <Value>Git GUI</Value>
         </TranslationItem>
-        <TranslationItem Name="gitMaintenanceToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="gitMaintenanceToolStripMenuItem" Property="Text">
           <Source>Git maintenance</Source>
-          <Value />
+          <Value>Git-underhåll</Value>
         </TranslationItem>
-        <TranslationItem Name="gitcommandLogToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="gitcommandLogToolStripMenuItem" Property="Text">
           <Source>Gitcommand log</Source>
-          <Value />
+          <Value>Git-kommandologg</Value>
         </TranslationItem>
         <TranslationItem Name="hashToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Hash</Source>
@@ -2055,20 +2055,20 @@ Do you want to abort and remove it from the recent repositories list?</Source>
         </TranslationItem>
         <TranslationItem Name="helpToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Help</Source>
-          <Value />
+          <Value>Hjälp</Value>
         </TranslationItem>
         <TranslationItem Name="initNewRepositoryToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Create new repository...</Source>
           <OldSource>Create new repository</OldSource>
           <Value>Skapa ny förvaring</Value>
         </TranslationItem>
-        <TranslationItem Name="kGitToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="kGitToolStripMenuItem" Property="Text">
           <Source>GitK</Source>
-          <Value />
+          <Value>GitK</Value>
         </TranslationItem>
-        <TranslationItem Name="localToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="localToolStripMenuItem" Property="Text">
           <Source>Local</Source>
-          <Value />
+          <Value>Lokal</Value>
         </TranslationItem>
         <TranslationItem Name="manageRemoteRepositoriesToolStripMenuItem1" Property="Text" type="unfinished">
           <Source>Remote repositories...</Source>
@@ -2086,46 +2086,47 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Merge</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="navigateToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="navigateToolStripMenuItem" Property="Text">
           <Source>Navigate</Source>
-          <Value />
+          <Value>Navigera</Value>
         </TranslationItem>
-        <TranslationItem Name="openContainingFolderToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="openContainingFolderToolStripMenuItem" Property="Text">
           <Source>Open containing folder(s)</Source>
-          <Value />
+          <Value>Öppna innehållande katalog(er)</Value>
         </TranslationItem>
-        <TranslationItem Name="openFileToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="openFileToolStripMenuItem" Property="Text">
           <Source>Open this revision (temp file)</Source>
-          <Value />
+          <Value>Öppna denna revision (temporär fil)</Value>
         </TranslationItem>
-        <TranslationItem Name="openFileWithToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="openFileWithToolStripMenuItem" Property="Text">
           <Source>Open this revision with... (temp file)</Source>
-          <Value />
+          <Value>Öppna denna revision med... (temporär fil)</Value>
         </TranslationItem>
         <TranslationItem Name="openToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Open...</Source>
           <OldSource>Open</OldSource>
           <Value>Öppna</Value>
         </TranslationItem>
-        <TranslationItem Name="openWithDifftoolToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="openWithDifftoolToolStripMenuItem" Property="Text">
           <Source>Open with difftool</Source>
-          <Value />
+          <Value>Öppna med diff-verktyg</Value>
         </TranslationItem>
         <TranslationItem Name="openWithToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Open working dir file with...</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="parentOfALocalToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="parentOfALocalToolStripMenuItem" Property="Text">
           <Source>A's parent &lt;--&gt; Working dir</Source>
-          <Value />
+          <Value>A:s förälder &lt;--&gt; Arbetskatalog</Value>
         </TranslationItem>
-        <TranslationItem Name="parentOfBLocalToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="parentOfBLocalToolStripMenuItem" Property="Text">
           <Source>B's parent &lt;--&gt; Working dir</Source>
-          <Value />
+          <Value>B:s förälder &lt;--&gt; Arbetskatalog</Value>
         </TranslationItem>
-        <TranslationItem Name="patchToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="patchToolStripMenuItem" Property="Text">
           <Source>View patch file...</Source>
-          <Value />
+          <Value>Visa buggfixfil...
+</Value>
         </TranslationItem>
         <TranslationItem Name="pluginSettingsToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Settings</Source>
@@ -2133,7 +2134,7 @@ Do you want to abort and remove it from the recent repositories list?</Source>
         </TranslationItem>
         <TranslationItem Name="pluginsToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Plugins</Source>
-          <Value />
+          <Value>Insticksprogram</Value>
         </TranslationItem>
         <TranslationItem Name="pullToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Pull...</Source>
@@ -2176,29 +2177,29 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Repository settings</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="reportAnIssueToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="reportAnIssueToolStripMenuItem" Property="Text">
           <Source>Report an issue</Source>
-          <Value />
+          <Value>Rapportera ett problem</Value>
         </TranslationItem>
         <TranslationItem Name="repositoryToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Repository</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="resetFileToAToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="resetFileToAToolStripMenuItem" Property="Text">
           <Source>A</Source>
-          <Value />
+          <Value>A</Value>
         </TranslationItem>
-        <TranslationItem Name="resetFileToRemoteToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="resetFileToRemoteToolStripMenuItem" Property="Text">
           <Source>B</Source>
-          <Value />
+          <Value>B</Value>
         </TranslationItem>
         <TranslationItem Name="resetFileToToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Reset file(s) to</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="resetToThisRevisionToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="resetToThisRevisionToolStripMenuItem" Property="Text">
           <Source>Reset to selected revision</Source>
-          <Value />
+          <Value>Återställ till vald revision</Value>
         </TranslationItem>
         <TranslationItem Name="resetToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Reset changes...</Source>
@@ -2209,17 +2210,17 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Solve mergeconflicts...</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="saveAsToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="saveAsToolStripMenuItem" Property="Text">
           <Source>Save as...</Source>
-          <Value />
+          <Value>Spara som...</Value>
         </TranslationItem>
-        <TranslationItem Name="saveAsToolStripMenuItem1" Property="Text" type="unfinished">
+        <TranslationItem Name="saveAsToolStripMenuItem1" Property="Text">
           <Source>Save (B) as...</Source>
-          <Value />
+          <Value>Spara (B) som...</Value>
         </TranslationItem>
-        <TranslationItem Name="saveToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="saveToolStripMenuItem" Property="Text">
           <Source>Save</Source>
-          <Value />
+          <Value>Spara</Value>
         </TranslationItem>
         <TranslationItem Name="settingsToolStripMenuItem2" Property="Text" type="unfinished">
           <Source>Settings</Source>
@@ -2229,9 +2230,9 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Settings</Source>
           <Value>Inställningar</Value>
         </TranslationItem>
-        <TranslationItem Name="startAuthenticationAgentToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="startAuthenticationAgentToolStripMenuItem" Property="Text">
           <Source>Start authentication agent</Source>
-          <Value />
+          <Value>Starta autenticeringsagent</Value>
         </TranslationItem>
         <TranslationItem Name="stashChangesToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Stash</Source>
@@ -2273,25 +2274,25 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Push</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="toolStripLabel1" Property="Text" type="unfinished">
+        <TranslationItem Name="toolStripLabel1" Property="Text">
           <Source>Branches:</Source>
-          <Value />
+          <Value>Grenar:</Value>
         </TranslationItem>
-        <TranslationItem Name="toolStripLabel2" Property="Text" type="unfinished">
+        <TranslationItem Name="toolStripLabel2" Property="Text">
           <Source>Filter:</Source>
-          <Value />
+          <Value>Filter:</Value>
         </TranslationItem>
-        <TranslationItem Name="toolStripSplitStash" Property="ToolTipText" type="unfinished">
+        <TranslationItem Name="toolStripSplitStash" Property="ToolTipText">
           <Source>Stash changes</Source>
-          <Value />
+          <Value>Göm ändringar</Value>
         </TranslationItem>
-        <TranslationItem Name="toolStripStatusLabel1" Property="Text" type="unfinished">
+        <TranslationItem Name="toolStripStatusLabel1" Property="Text">
           <Source>X</Source>
-          <Value />
+          <Value>X</Value>
         </TranslationItem>
-        <TranslationItem Name="toolsToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="toolsToolStripMenuItem" Property="Text">
           <Source>Tools</Source>
-          <Value />
+          <Value>Verktyg</Value>
         </TranslationItem>
         <TranslationItem Name="translateToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Translate</Source>
@@ -2301,21 +2302,21 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Update all submodules</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="userManualToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="userManualToolStripMenuItem" Property="Text">
           <Source>User Manual</Source>
-          <Value />
+          <Value>Användarmanual</Value>
         </TranslationItem>
-        <TranslationItem Name="verifyGitDatabaseToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="verifyGitDatabaseToolStripMenuItem" Property="Text">
           <Source>Recover lost objects...</Source>
-          <Value />
+          <Value>Återställ förlorade objekt...</Value>
         </TranslationItem>
         <TranslationItem Name="viewStashToolStripMenuItem" Property="Text" type="unfinished">
           <Source>View stash</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="viewToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="viewToolStripMenuItem" Property="Text">
           <Source>View</Source>
-          <Value />
+          <Value>Visa</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -2821,7 +2822,7 @@ Do you want to continue?</Source>
         </TranslationItem>
         <TranslationItem Name="_mergeConflictsCaption" Property="Text" type="unfinished">
           <Source>Merge conflicts</Source>
-          <Value />
+          <Value>Merge-konflikter</Value>
         </TranslationItem>
         <TranslationItem Name="_noFilesStagedAndConfirmAnEmptyMergeCommit" Property="Text" type="unfinished">
           <Source>There are no files staged for this commit.
@@ -2982,9 +2983,9 @@ Do you want to continue?</Source>
           <Source>Edit ignored files</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="filenameToClipboardToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="filenameToClipboardToolStripMenuItem" Property="Text">
           <Source>Copy full path</Source>
-          <Value />
+          <Value>Kopiera full sökväg</Value>
         </TranslationItem>
         <TranslationItem Name="generateListOfChangesInSubmodulesChangesToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Generate a list of changes in submodules</Source>
@@ -2998,9 +2999,9 @@ Do you want to continue?</Source>
           <Source>This file is over 5 MB. Click to show preview</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="openContainingFolderToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="openContainingFolderToolStripMenuItem" Property="Text">
           <Source>Open containing folder</Source>
-          <Value />
+          <Value>Öppna innehållande katalog</Value>
         </TranslationItem>
         <TranslationItem Name="openDiffMenuItem" Property="Text" type="unfinished">
           <Source>Open with Difftool</Source>
@@ -3094,17 +3095,17 @@ Do you want to continue?</Source>
           <Source>Selection Filter</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="toolStripMenuItem10" Property="Text" type="unfinished">
+        <TranslationItem Name="toolStripMenuItem10" Property="Text">
           <Source>Open containing folder</Source>
-          <Value />
+          <Value>Öppna innehållande katalog</Value>
         </TranslationItem>
         <TranslationItem Name="toolStripMenuItem11" Property="Text" type="unfinished">
           <Source>Edit file</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="toolStripMenuItem14" Property="Text" type="unfinished">
+        <TranslationItem Name="toolStripMenuItem14" Property="Text">
           <Source>Copy full path</Source>
-          <Value />
+          <Value>Kopiera full sökväg</Value>
         </TranslationItem>
         <TranslationItem Name="toolStripMenuItem3" Property="Text" type="unfinished">
           <Source>Options</Source>
@@ -3168,7 +3169,7 @@ Do you want to continue?</Source>
       <translationItems>
         <TranslationItem Name="$this" Property="Text" type="unfinished">
           <Source>Diff</Source>
-          <Value />
+          <Value>Differens</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -3208,7 +3209,7 @@ Do you want to continue?</Source>
         </TranslationItem>
         <TranslationItem Name="labelCommitTemplateName" Property="Text" type="unfinished">
           <Source>Name:</Source>
-          <Value />
+          <Value>Namn:</Value>
         </TranslationItem>
         <TranslationItem Name="labelMaxFirstLineLength" Property="Text" type="unfinished">
           <Source>Maximum numbers of characters in first line (0 = check disabled):</Source>
@@ -3481,7 +3482,7 @@ this using `force delete´.
       <translationItems>
         <TranslationItem Name="$this" Property="Text" type="unfinished">
           <Source>Diff</Source>
-          <Value />
+          <Value>Differens</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -3505,7 +3506,7 @@ Click on the "Support this project" button to get more information about making 
       <translationItems>
         <TranslationItem Name="$this" Property="Text" type="unfinished">
           <Source>View</Source>
-          <Value />
+          <Value>Visa</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -3543,7 +3544,7 @@ If you are not sure just close this window.</Source>
         </TranslationItem>
         <TranslationItem Name="toolStripSaveButton" Property="ToolTipText" type="unfinished">
           <Source>Save</Source>
-          <Value />
+          <Value>Spara</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -3555,15 +3556,15 @@ If you are not sure just close this window.</Source>
         </TranslationItem>
         <TranslationItem Name="BlameTab" Property="Text" type="unfinished">
           <Source>Blame</Source>
-          <Value />
+          <Value>Klandra</Value>
         </TranslationItem>
         <TranslationItem Name="DiffTab" Property="Text" type="unfinished">
           <Source>Diff</Source>
-          <Value />
+          <Value>Differens</Value>
         </TranslationItem>
         <TranslationItem Name="ViewTab" Property="Text" type="unfinished">
           <Source>View</Source>
-          <Value />
+          <Value>Visa</Value>
         </TranslationItem>
         <TranslationItem Name="cherryPickThisCommitToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Cherry pick commit</Source>
@@ -3608,11 +3609,11 @@ If you are not sure just close this window.</Source>
         </TranslationItem>
         <TranslationItem Name="toolStripLabel1" Property="Text" type="unfinished">
           <Source>Branches:</Source>
-          <Value />
+          <Value>Grenar:</Value>
         </TranslationItem>
         <TranslationItem Name="toolStripLabel2" Property="Text" type="unfinished">
           <Source>Filter:</Source>
-          <Value />
+          <Value>Filter:</Value>
         </TranslationItem>
         <TranslationItem Name="toolStripSplitLoad" Property="ToolTipText" type="unfinished">
           <Source>Load file history</Source>
@@ -3899,13 +3900,13 @@ to %HOMEDRIVE%%HOMEPATH% if empty. Change the default behaviour only if you expe
     </TranslationCategory>
     <TranslationCategory Name="FormGitAttributes">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Edit .gitattributes</Source>
-          <Value />
+          <Value>Redigera .gitattributes</Value>
         </TranslationItem>
         <TranslationItem Name="Save" Property="Text" type="unfinished">
           <Source>Save</Source>
-          <Value />
+          <Value>Spara</Value>
         </TranslationItem>
         <TranslationItem Name="_cannotAccessGitattributes" Property="Text" type="unfinished">
           <Source>Failed to save .gitattributes.
@@ -3955,9 +3956,9 @@ command "git help gitattributes"
     </TranslationCategory>
     <TranslationCategory Name="FormGitIgnore">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Edit .gitignore</Source>
-          <Value />
+          <Value>Redigera .gitignore</Value>
         </TranslationItem>
         <TranslationItem Name="AddDefault" Property="Text" type="unfinished">
           <Source>Add default ignores</Source>
@@ -3969,7 +3970,7 @@ command "git help gitattributes"
         </TranslationItem>
         <TranslationItem Name="Save" Property="Text" type="unfinished">
           <Source>Save</Source>
-          <Value />
+          <Value>Spara</Value>
         </TranslationItem>
         <TranslationItem Name="_cannotAccessGitignore" Property="Text" type="unfinished">
           <Source>Failed to save .gitignore.
@@ -4057,7 +4058,7 @@ _ReSharper*/</Source>
         </TranslationItem>
         <TranslationItem Name="Save" Property="Text" type="unfinished">
           <Source>Save</Source>
-          <Value />
+          <Value>Spara</Value>
         </TranslationItem>
         <TranslationItem Name="_cannotAccessGitreview" Property="Text" type="unfinished">
           <Source>Failed to save .gitreview.
@@ -4117,7 +4118,7 @@ defaultrebase=0</Source>
         </TranslationItem>
         <TranslationItem Name="groupBox1" Property="Text" type="unfinished">
           <Source>Help</Source>
-          <Value />
+          <Value>Hjälp</Value>
         </TranslationItem>
         <TranslationItem Name="label1" Property="Text" type="unfinished">
           <Source>Commit expression:</Source>
@@ -4221,13 +4222,13 @@ Vänligen välj en katalog.</Value>
     </TranslationCategory>
     <TranslationCategory Name="FormMailMap">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Edit .mailmap</Source>
-          <Value />
+          <Value>Redigera .mailmap</Value>
         </TranslationItem>
         <TranslationItem Name="Save" Property="Text" type="unfinished">
           <Source>Save</Source>
-          <Value />
+          <Value>Spara</Value>
         </TranslationItem>
         <TranslationItem Name="_cannotAccessMailmap" Property="Text" type="unfinished">
           <Source>Failed to save .mailmap.
@@ -4346,7 +4347,7 @@ ancestor tree. </Source>
         </TranslationItem>
         <TranslationItem Name="strategyHelp" Property="Text" type="unfinished">
           <Source>Help</Source>
-          <Value />
+          <Value>Hjälp</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -4458,9 +4459,9 @@ To enable Gerrit support for a repository, a .gitreview file must be created. Th
           <Source>&amp;Rebase current branch on top of remote branch, creates linear history (use with caution)</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="Stash" Property="Text" type="unfinished">
+        <TranslationItem Name="Stash" Property="Text">
           <Source>Stash changes</Source>
-          <Value />
+          <Value>Göm ändringar</Value>
         </TranslationItem>
         <TranslationItem Name="_allMergeConflictSolvedQuestion" Property="Text" type="unfinished">
           <Source>Are all merge conflicts solved? Do you want to commit?</Source>
@@ -5015,7 +5016,7 @@ Ingen ny plats för grenen.</Value>
         </TranslationItem>
         <TranslationItem Name="SaveDefaultPushPull" Property="Text" type="unfinished">
           <Source>Save</Source>
-          <Value />
+          <Value>Spara</Value>
         </TranslationItem>
         <TranslationItem Name="SshBrowse" Property="Text" type="unfinished">
           <Source>Browse</Source>
@@ -5478,7 +5479,7 @@ Choose to delete the file or keep the modified version.</Source>
         </TranslationItem>
         <TranslationItem Name="fileHistoryToolStripMenuItem" Property="Text" type="unfinished">
           <Source>File history</Source>
-          <Value />
+          <Value>Filhistorik</Value>
         </TranslationItem>
         <TranslationItem Name="fileIsBinary" Property="Text" type="unfinished">
           <Source>The selected file appears to be a binary file.
@@ -5536,7 +5537,7 @@ The merge conflict will not be marked as solved. Please try again.</Source>
         </TranslationItem>
         <TranslationItem Name="label7" Property="Text" type="unfinished">
           <Source>Local</Source>
-          <Value />
+          <Value>Lokal</Value>
         </TranslationItem>
         <TranslationItem Name="merge" Property="Text" type="unfinished">
           <Source>Merge</Source>
@@ -5783,7 +5784,7 @@ Therefore the Cancel button does NOT revert any changes made.</Source>
           <OldSource>Changes made on this page will be saved instantly. 
 Thus the Cancel and Discard button will have no effect for this page.</OldSource>
           <Value>Ändringar som utförs på denna sida kommer att sparas direkt.
-Därför har Avbryt- och Ångra-knapparna ingen effekt på denna sida.</Value>
+Därför har Avbryt-knappen ingen effekt på denna sida.</Value>
         </TranslationItem>
         <TranslationItem Name="labelSettingsPageTitle" Property="Text" type="obsolete">
           <Source>...title...</Source>
@@ -6008,7 +6009,7 @@ Do you want to open the new repository "{0}" now?</Source>
         </TranslationItem>
         <TranslationItem Name="cbBranches" Property="Text" type="unfinished">
           <Source>Branches:</Source>
-          <Value />
+          <Value>Grenar:</Value>
         </TranslationItem>
         <TranslationItem Name="cbTags" Property="Text" type="unfinished">
           <Source>Tags:</Source>
@@ -6250,7 +6251,7 @@ Context menu for additional operations</Source>
         </TranslationItem>
         <TranslationItem Name="mnuLostObjectView" Property="Text" type="unfinished">
           <Source>View</Source>
-          <Value />
+          <Value>Visa</Value>
         </TranslationItem>
         <TranslationItem Name="mnuLostObjectsCreateBranch" Property="Text" type="unfinished">
           <Source>Create branch</Source>
@@ -6372,17 +6373,17 @@ Context menu for additional operations</Source>
     </TranslationCategory>
     <TranslationCategory Name="GitExtensionsSettingsGroup">
       <translationItems>
-        <TranslationItem Name="$this" Property="Title" type="unfinished">
+        <TranslationItem Name="$this" Property="Title">
           <Source>Git Extensions</Source>
-          <Value />
+          <Value>Git Extensions</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="GitExtensionsSettingsPage">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Git Extensions</Source>
-          <Value />
+          <Value>Git Extensions</Value>
         </TranslationItem>
         <TranslationItem Name="btnDefaultDestinationBrowse" Property="Text" type="unfinished">
           <Source>Browse</Source>
@@ -6432,34 +6433,35 @@ Context menu for additional operations</Source>
           <Source>Include untracked files in stash</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="chkUseFastChecks" Property="Text" type="unfinished">
+        <TranslationItem Name="chkUseFastChecks" Property="Text">
           <Source>Use FileSystemWatcher to check if index is changed</Source>
-          <Value />
+          <Value>Använd FileSystemWatcher för att kontrollera om korgens innehåll ändrats</Value>
         </TranslationItem>
-        <TranslationItem Name="chkUsePatienceDiffAlgorithm" Property="Text" type="unfinished">
+        <TranslationItem Name="chkUsePatienceDiffAlgorithm" Property="Text">
           <Source>Use patience diff algorithm</Source>
-          <Value />
+          <Value>Använd diff-algoritmen "patience"</Value>
         </TranslationItem>
-        <TranslationItem Name="chkUseSSL" Property="Text" type="unfinished">
+        <TranslationItem Name="chkUseSSL" Property="Text">
           <Source>Use SSL/TLS</Source>
-          <Value />
+          <Value>Använd SSL/TLS</Value>
         </TranslationItem>
-        <TranslationItem Name="chkWriteCommitMessageInCommitWindow" Property="Text" type="unfinished">
+        <TranslationItem Name="chkWriteCommitMessageInCommitWindow" Property="Text">
           <Source>Compose commit messages in Commit dialog
 (otherwise the message will be requested during commit)</Source>
-          <Value />
+          <Value>Författa commit-meddelande i commit-dialog
+(annars kommer meddelandet att efterfrågas vid commit)</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox1" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox1" Property="Text">
           <Source>Email settings for sending patches</Source>
-          <Value />
+          <Value>E-postinställningar för att skicka buggfixar</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox11" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox11" Property="Text">
           <Source>Performance</Source>
-          <Value />
+          <Value>Prestanda</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox12" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox12" Property="Text">
           <Source>Behaviour</Source>
-          <Value />
+          <Value>Beteende</Value>
         </TranslationItem>
         <TranslationItem Name="label1" Property="Text" type="unfinished">
           <Source>Limit number of commits that will be loaded at startup</Source>
@@ -6469,21 +6471,21 @@ Context menu for additional operations</Source>
           <Source>Limit number of commits that will be loaded at startup</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="label2" Property="Text" type="unfinished">
+        <TranslationItem Name="label2" Property="Text">
           <Source>Port</Source>
-          <Value />
+          <Value>Port</Value>
         </TranslationItem>
-        <TranslationItem Name="label23" Property="Text" type="unfinished">
+        <TranslationItem Name="label23" Property="Text">
           <Source>SMTP server name</Source>
-          <Value />
+          <Value>SMTP-servernamn</Value>
         </TranslationItem>
         <TranslationItem Name="label24" Property="Text" type="unfinished">
           <Source>Revision grid quick search timeout [ms]</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="lblDefaultCloneDestination" Property="Text" type="unfinished">
+        <TranslationItem Name="lblDefaultCloneDestination" Property="Text">
           <Source>Default clone destination</Source>
-          <Value />
+          <Value>Standardmål för kloning</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -6652,9 +6654,9 @@ globala inställningar.</Value>
     </TranslationCategory>
     <TranslationCategory Name="GotoUserManualControl">
       <translationItems>
-        <TranslationItem Name="linkLabelHelp" Property="Text" type="unfinished">
+        <TranslationItem Name="linkLabelHelp" Property="Text">
           <Source>Help</Source>
-          <Value />
+          <Value>Hjälp</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -6664,9 +6666,9 @@ globala inställningar.</Value>
           <Source>Clear image cache</Source>
           <Value>Rensa bildcache</Value>
         </TranslationItem>
-        <TranslationItem Name="extraLargeToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="extraLargeToolStripMenuItem" Property="Text">
           <Source>Extra Large (320x320)</Source>
-          <Value />
+          <Value>Extra stor (320x320)</Value>
         </TranslationItem>
         <TranslationItem Name="identiconToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Identicon</Source>
@@ -6676,41 +6678,41 @@ globala inställningar.</Value>
           <Source>Image size</Source>
           <Value>Bildstorlek</Value>
         </TranslationItem>
-        <TranslationItem Name="largeToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="largeToolStripMenuItem" Property="Text">
           <Source>Large (240x240)</Source>
-          <Value />
+          <Value>Stor (240x240)</Value>
         </TranslationItem>
         <TranslationItem Name="monsterIdToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Monster Id</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="noImageGeneratorToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="noImageGeneratorToolStripMenuItem" Property="Text">
           <Source>No image service</Source>
-          <Value>Ingen bildtjänst</Value>
+          <Value>Istället för bildtjänst</Value>
         </TranslationItem>
-        <TranslationItem Name="noneToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="noneToolStripMenuItem" Property="Text">
           <Source>None</Source>
-          <Value />
+          <Value>Ingen</Value>
         </TranslationItem>
-        <TranslationItem Name="normalToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="normalToolStripMenuItem" Property="Text">
           <Source>Normal (160x160)</Source>
-          <Value />
+          <Value>Normal (160x160)</Value>
         </TranslationItem>
-        <TranslationItem Name="refreshToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="refreshToolStripMenuItem" Property="Text">
           <Source>Refresh image</Source>
-          <Value />
+          <Value>Ladda om bild</Value>
         </TranslationItem>
-        <TranslationItem Name="registerAtGravatarcomToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="registerAtGravatarcomToolStripMenuItem" Property="Text">
           <Source>Register at gravatar.com</Source>
-          <Value />
+          <Value>Registrering på gravatar.com</Value>
         </TranslationItem>
         <TranslationItem Name="retroToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Retro</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="smallToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="smallToolStripMenuItem" Property="Text">
           <Source>Small (80x80)</Source>
-          <Value />
+          <Value>Liten (80x80)</Value>
         </TranslationItem>
         <TranslationItem Name="wavatarToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Wavatar</Source>
@@ -6720,22 +6722,23 @@ globala inställningar.</Value>
     </TranslationCategory>
     <TranslationCategory Name="HelpImageDisplayUserControl">
       <translationItems>
-        <TranslationItem Name="linkLabelHide" Property="Text" type="unfinished">
+        <TranslationItem Name="linkLabelHide" Property="Text">
           <Source>Hide help</Source>
-          <Value />
+          <Value>Dölj hjälp</Value>
         </TranslationItem>
-        <TranslationItem Name="linkLabelShowHelp" Property="Text" type="unfinished">
+        <TranslationItem Name="linkLabelShowHelp" Property="Text">
           <Source>Show
 help</Source>
-          <Value />
+          <Value>Visa
+hjälp</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="HotkeysSettingsPage">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Hotkeys</Source>
-          <Value />
+          <Value>Kortkommandon</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -6745,45 +6748,45 @@ help</Source>
           <Source>Error</Source>
           <Value>Fel</Value>
         </TranslationItem>
-        <TranslationItem Name="_middleOfPatchApply" Property="Text" type="unfinished">
+        <TranslationItem Name="_middleOfPatchApply" Property="Text">
           <Source>You are in the middle of a patch apply, continue patch apply?</Source>
-          <Value />
+          <Value>Du är i mitten av en buggfixapplicering. Fortsätt applicera buggfix?</Value>
         </TranslationItem>
-        <TranslationItem Name="_middleOfPatchApplyCaption" Property="Text" type="unfinished">
+        <TranslationItem Name="_middleOfPatchApplyCaption" Property="Text">
           <Source>Patch apply</Source>
-          <Value />
+          <Value>Buggfixapplicering</Value>
         </TranslationItem>
-        <TranslationItem Name="_middleOfRebase" Property="Text" type="unfinished">
+        <TranslationItem Name="_middleOfRebase" Property="Text">
           <Source>You are in the middle of a rebase, continue rebase?</Source>
-          <Value />
+          <Value>Du är i mitten av en ombasering. Fortsätt ombasera?</Value>
         </TranslationItem>
         <TranslationItem Name="_middleOfRebaseCaption" Property="Text" type="unfinished">
           <Source>Rebase</Source>
           <Value>Byt grenplats</Value>
         </TranslationItem>
-        <TranslationItem Name="_notValidGitDirectory" Property="Text" type="unfinished">
+        <TranslationItem Name="_notValidGitDirectory" Property="Text">
           <Source>The current directory is not a valid git repository.</Source>
-          <Value />
+          <Value>Aktuell katalog är ingen giltig git-förvaring.</Value>
         </TranslationItem>
-        <TranslationItem Name="_notValidGitSVNDirectory" Property="Text" type="unfinished">
+        <TranslationItem Name="_notValidGitSVNDirectory" Property="Text">
           <Source>The current directory is not a valid git-svn repository.</Source>
-          <Value />
+          <Value>Aktuell katalog är ingen giltig git-svn-förvaring.</Value>
         </TranslationItem>
-        <TranslationItem Name="_pageantNotFound" Property="Text" type="unfinished">
+        <TranslationItem Name="_pageantNotFound" Property="Text">
           <Source>Cannot load SSH key. PuTTY is not configured properly.</Source>
-          <Value />
+          <Value>Kan ej ladda SSH-nyckel. PuTTY är ej korrekt konfigurerat.</Value>
         </TranslationItem>
-        <TranslationItem Name="_unableGetSVNInformation" Property="Text" type="unfinished">
+        <TranslationItem Name="_unableGetSVNInformation" Property="Text">
           <Source>Unable to determine upstream SVN information.</Source>
-          <Value />
+          <Value>Det gick ej att bestämma uppströms SVN-information.</Value>
         </TranslationItem>
-        <TranslationItem Name="_unresolvedMergeConflicts" Property="Text" type="unfinished">
+        <TranslationItem Name="_unresolvedMergeConflicts" Property="Text">
           <Source>There are unresolved merge conflicts, solve conflicts now?</Source>
-          <Value />
+          <Value>Det finns olösta merge-konflikter. Lös konflikter nu?</Value>
         </TranslationItem>
-        <TranslationItem Name="_unresolvedMergeConflictsCaption" Property="Text" type="unfinished">
+        <TranslationItem Name="_unresolvedMergeConflictsCaption" Property="Text">
           <Source>Merge conflicts</Source>
-          <Value />
+          <Value>Merge-konflikter</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -6817,17 +6820,17 @@ help</Source>
     </TranslationCategory>
     <TranslationCategory Name="PluginSettingsPage">
       <translationItems>
-        <TranslationItem Name="labelNoSettings" Property="Text" type="unfinished">
+        <TranslationItem Name="labelNoSettings" Property="Text">
           <Source>There are no settings available for this plugin.</Source>
-          <Value />
+          <Value>Det finns inga inställningar tillgängliga för detta insticksprogram.</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="PluginsSettingsGroup">
       <translationItems>
-        <TranslationItem Name="$this" Property="Title" type="unfinished">
+        <TranslationItem Name="$this" Property="Title">
           <Source>Plugins</Source>
-          <Value />
+          <Value>Insticksprogram</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -6849,9 +6852,9 @@ help</Source>
           <Source>Date</Source>
           <Value>Datum</Value>
         </TranslationItem>
-        <TranslationItem Name="GitIgnore" Property="Text" type="unfinished">
+        <TranslationItem Name="GitIgnore" Property="Text">
           <Source>Edit .gitignore</Source>
-          <Value />
+          <Value>Redigera .gitignore</Value>
         </TranslationItem>
         <TranslationItem Name="GotoChildCommit" Property="Text" type="unfinished">
           <Source>Go to child commit</Source>
@@ -7035,7 +7038,7 @@ If this is a central repository (bare repository without a working dir):
         </TranslationItem>
         <TranslationItem Name="navigateToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Navigate</Source>
-          <Value />
+          <Value>Navigera</Value>
         </TranslationItem>
         <TranslationItem Name="orderRevisionsByDateToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Order revisions by date</Source>
@@ -7099,7 +7102,7 @@ If this is a central repository (bare repository without a working dir):
         </TranslationItem>
         <TranslationItem Name="viewToolStripMenuItem" Property="Text" type="unfinished">
           <Source>View</Source>
-          <Value />
+          <Value>Visa</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -7123,7 +7126,7 @@ If this is a central repository (bare repository without a working dir):
         </TranslationItem>
         <TranslationItem Name="EnabledChx" Property="Text" type="unfinished">
           <Source>Enabled</Source>
-          <Value />
+          <Value>Aktiverat</Value>
         </TranslationItem>
         <TranslationItem Name="LocalBranchChx" Property="Text" type="unfinished">
           <Source>Local branch</Source>
@@ -7173,139 +7176,141 @@ If this is a central repository (bare repository without a working dir):
     </TranslationCategory>
     <TranslationCategory Name="ScriptsSettingsPage">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Scripts</Source>
-          <Value />
+          <Value>Skript</Value>
         </TranslationItem>
-        <TranslationItem Name="AskConfirmation" Property="HeaderText" type="unfinished">
+        <TranslationItem Name="AskConfirmation" Property="HeaderText">
           <Source>Confirmation</Source>
-          <Value />
+          <Value>Bekräftelse</Value>
         </TranslationItem>
-        <TranslationItem Name="EnabledColumn" Property="HeaderText" type="unfinished">
+        <TranslationItem Name="EnabledColumn" Property="HeaderText">
           <Source>Enabled</Source>
-          <Value />
+          <Value>Aktiverat</Value>
         </TranslationItem>
-        <TranslationItem Name="OnEvent" Property="HeaderText" type="unfinished">
+        <TranslationItem Name="OnEvent" Property="HeaderText">
           <Source>OnEvent</Source>
-          <Value />
+          <Value>Vid händelse</Value>
         </TranslationItem>
         <TranslationItem Name="addScriptButton" Property="Text" type="unfinished">
           <Source>Add</Source>
           <Value>Lägg till</Value>
         </TranslationItem>
-        <TranslationItem Name="argumentsLabel" Property="Text" type="unfinished">
+        <TranslationItem Name="argumentsLabel" Property="Text">
           <Source>Arguments:</Source>
-          <Value />
+          <Value>Argument:</Value>
         </TranslationItem>
         <TranslationItem Name="browseScriptButton" Property="Text" type="unfinished">
           <Source>Browse</Source>
           <Value>Bläddra</Value>
         </TranslationItem>
-        <TranslationItem Name="buttonShowArgumentsHelp" Property="Text" type="unfinished">
+        <TranslationItem Name="buttonShowArgumentsHelp" Property="Text">
           <Source>Help</Source>
-          <Value />
+          <Value>Hjälp</Value>
         </TranslationItem>
-        <TranslationItem Name="commandLabel" Property="Text" type="unfinished">
+        <TranslationItem Name="commandLabel" Property="Text">
           <Source>Command:</Source>
-          <Value />
+          <Value>Kommando:</Value>
         </TranslationItem>
         <TranslationItem Name="inMenuCheckBox" Property="Text" type="unfinished">
           <Source>Add to revision grid context menu</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="labelOnEvent" Property="Text" type="unfinished">
+        <TranslationItem Name="labelOnEvent" Property="Text">
           <Source>On event:</Source>
-          <Value />
+          <Value>Vid händelse:</Value>
         </TranslationItem>
-        <TranslationItem Name="lbl_icon" Property="Text" type="unfinished">
+        <TranslationItem Name="lbl_icon" Property="Text">
           <Source>Icon:</Source>
-          <Value />
+          <Value>Ikon:</Value>
         </TranslationItem>
-        <TranslationItem Name="nameLabel" Property="Text" type="unfinished">
+        <TranslationItem Name="nameLabel" Property="Text">
           <Source>Name:</Source>
-          <Value />
+          <Value>Namn:</Value>
         </TranslationItem>
-        <TranslationItem Name="removeScriptButton" Property="Text" type="unfinished">
+        <TranslationItem Name="removeScriptButton" Property="Text">
           <Source>Remove</Source>
-          <Value>Radera</Value>
+          <Value>Ta bort</Value>
         </TranslationItem>
-        <TranslationItem Name="sbtn_icon" Property="Text" type="unfinished">
+        <TranslationItem Name="sbtn_icon" Property="Text">
           <Source>Select icon</Source>
-          <Value />
+          <Value>Välj ikon</Value>
         </TranslationItem>
-        <TranslationItem Name="scriptEnabled" Property="Text" type="unfinished">
+        <TranslationItem Name="scriptEnabled" Property="Text">
           <Source>Enabled</Source>
-          <Value />
+          <Value>Aktiverat</Value>
         </TranslationItem>
-        <TranslationItem Name="scriptNeedsConfirmation" Property="Text" type="unfinished">
+        <TranslationItem Name="scriptNeedsConfirmation" Property="Text">
           <Source>Ask for confirmation</Source>
-          <Value />
+          <Value>Fråga om bekräftelse</Value>
         </TranslationItem>
-        <TranslationItem Name="scriptShowProgress" Property="Text" type="unfinished">
+        <TranslationItem Name="scriptShowProgress" Property="Text">
           <Source>Show progress</Source>
-          <Value />
+          <Value>Visa förlopp</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="SettingsPageHeader">
       <translationItems>
-        <TranslationItem Name="DistributedRB" Property="Text" type="unfinished">
+        <TranslationItem Name="DistributedRB" Property="Text">
           <Source>Distributed with current repository</Source>
-          <Value />
+          <Value>Distribuerad med aktuell förvaring</Value>
         </TranslationItem>
-        <TranslationItem Name="EffectiveRB" Property="Text" type="unfinished">
+        <TranslationItem Name="EffectiveRB" Property="Text">
           <Source>Effective</Source>
-          <Value />
+          <Value>Faktisk</Value>
         </TranslationItem>
-        <TranslationItem Name="GlobalRB" Property="Text" type="unfinished">
+        <TranslationItem Name="GlobalRB" Property="Text">
           <Source>Global for all repositories</Source>
-          <Value />
+          <Value>Globalt för alla förvaringar</Value>
         </TranslationItem>
-        <TranslationItem Name="LocalRB" Property="Text" type="unfinished">
+        <TranslationItem Name="LocalRB" Property="Text">
           <Source>Local for current repository</Source>
-          <Value />
+          <Value>Lokalt för aktuell förvaring</Value>
         </TranslationItem>
-        <TranslationItem Name="label1" Property="Text" type="unfinished">
+        <TranslationItem Name="label1" Property="Text">
           <Source>Settings source:</Source>
-          <Value />
+          <Value>Inställningskälla:</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="ShellExtensionSettingsPage">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Shell extension</Source>
-          <Value />
+          <Value>Utforskar-tillägg</Value>
         </TranslationItem>
-        <TranslationItem Name="label1" Property="Text" type="unfinished">
+        <TranslationItem Name="label1" Property="Text">
           <Source>Context menu preview
 when all items are shown:</Source>
-          <Value />
+          <Value>Förhandsvisning av högerklicksmeny
+när alla element visas:</Value>
         </TranslationItem>
-        <TranslationItem Name="lblMenuEntries" Property="Text" type="unfinished">
+        <TranslationItem Name="lblMenuEntries" Property="Text">
           <Source>Select items to be shown in the cascaded context menu.
 (Unchecked items will be shown top level for direct access.)</Source>
-          <Value />
+          <Value>Välj vilka val som ska placeras i den utfällbara högerklicksmenyn.
+(De som ej väljs hamnar på toppnivån för smidigare åtkomst.)</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="SshSettingsPage">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>SSH</Source>
-          <Value />
+          <Value>SSH</Value>
         </TranslationItem>
-        <TranslationItem Name="AutostartPageant" Property="Text" type="unfinished">
+        <TranslationItem Name="AutostartPageant" Property="Text">
           <Source>Automatically start authentication client when a private key is configured for a remote</Source>
-          <Value />
+          <Value>Starta autentiseringsklient automatiskt när en privat nyckel är vald för en fjärrförvaring</Value>
         </TranslationItem>
-        <TranslationItem Name="OpenSSH" Property="Text" type="unfinished">
+        <TranslationItem Name="OpenSSH" Property="Text">
           <Source>OpenSSH</Source>
-          <Value />
+          <Value>OpenSSH</Value>
         </TranslationItem>
-        <TranslationItem Name="Other" Property="Text" type="unfinished">
+        <TranslationItem Name="Other" Property="Text">
           <Source>Other ssh client</Source>
-          <Value />
+          <Value>Annan SSH-klient</Value>
         </TranslationItem>
         <TranslationItem Name="OtherSshBrowse" Property="Text" type="unfinished">
           <Source>Browse</Source>
@@ -7319,52 +7324,54 @@ when all items are shown:</Source>
           <Source>Browse</Source>
           <Value>Bläddra</Value>
         </TranslationItem>
-        <TranslationItem Name="Putty" Property="Text" type="unfinished">
+        <TranslationItem Name="Putty" Property="Text">
           <Source>PuTTY</Source>
-          <Value />
+          <Value>PuTTY</Value>
         </TranslationItem>
         <TranslationItem Name="PuttygenBrowse" Property="Text" type="unfinished">
           <Source>Browse</Source>
           <Value>Bläddra</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox1" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox1" Property="Text">
           <Source>Specify which ssh client to use</Source>
-          <Value />
+          <Value>Ange SSH-klient att använda</Value>
         </TranslationItem>
-        <TranslationItem Name="groupBox2" Property="Text" type="unfinished">
+        <TranslationItem Name="groupBox2" Property="Text">
           <Source>Configure PuTTY</Source>
-          <Value />
+          <Value>Konfigurera PuTTY</Value>
         </TranslationItem>
-        <TranslationItem Name="label15" Property="Text" type="unfinished">
+        <TranslationItem Name="label15" Property="Text">
           <Source>Path to plink.exe</Source>
-          <Value />
+          <Value>Sökväg till plink.exe</Value>
         </TranslationItem>
-        <TranslationItem Name="label16" Property="Text" type="unfinished">
+        <TranslationItem Name="label16" Property="Text">
           <Source>Path to puttygen</Source>
-          <Value />
+          <Value>Sökväg till puttygen</Value>
         </TranslationItem>
-        <TranslationItem Name="label17" Property="Text" type="unfinished">
+        <TranslationItem Name="label17" Property="Text">
           <Source>Path to pageant</Source>
-          <Value />
+          <Value>Sökväg till pageant</Value>
         </TranslationItem>
-        <TranslationItem Name="label18" Property="Text" type="unfinished">
+        <TranslationItem Name="label18" Property="Text">
           <Source>OpenSSH is a commandline tool. PuTTY is more userfriendly to use for windows users, 
 but requires the PuTTY authentication client to run  in the background.
 When OpenSSH is used, command line dialogs are shown!
 </Source>
-          <Value />
+          <Value>OpenSSH är ett kommandoradsverktyg. PuTTY är mer användarvänligt för Windows-användare,
+men kräver att PuTTY:s autentiseringsklient körs i bakgrunden.
+När OpenSSH används så visas dialoger med kommandofönster!</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="StartPageSettingsPage">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="unfinished">
+        <TranslationItem Name="$this" Property="Text">
           <Source>Plugins Settings</Source>
-          <Value />
+          <Value>Insticksprogram</Value>
         </TranslationItem>
-        <TranslationItem Name="label1" Property="Text" type="unfinished">
+        <TranslationItem Name="label1" Property="Text">
           <Source>Select one of the subnodes to view or edit the settings of a Git Extensions Plugin.</Source>
-          <Value />
+          <Value>Välj en av noderna för att se eller ändra inställningarna för ett insticksprogram till Git Extensions.</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -7453,10 +7460,6 @@ When OpenSSH is used, command line dialogs are shown!
           <OldSource>{0} years ago</OldSource>
           <Value>{0} år sedan</Value>
         </TranslationItem>
-        <TranslationItem Name="_LoadingData" Property="Text" type="obsolete">
-          <Source>Loading data...</Source>
-          <Value>Hämtar data...</Value>
-        </TranslationItem>
         <TranslationItem Name="_dayAgo" Property="Text" type="obsolete">
           <Source>{0} day ago</Source>
           <Value>{0} dag sedan</Value>
@@ -7491,11 +7494,11 @@ When OpenSSH is used, command line dialogs are shown!
       <translationItems>
         <TranslationItem Name="$this" Property="Text">
           <Source>View Pull Requests</Source>
-          <Value>Visa ryckförfrågningar</Value>
+          <Value>Visa pull-förfrågningar</Value>
         </TranslationItem>
         <TranslationItem Name="_addAndFetchBtn" Property="Text">
           <Source>Add remote and fetch</Source>
-          <Value>Lägg till fjärrplats och hämta</Value>
+          <Value>Addera fjärrplats, hämta</Value>
         </TranslationItem>
         <TranslationItem Name="_chooseRepo" Property="Text">
           <Source>Choose repository:</Source>
@@ -7503,60 +7506,62 @@ When OpenSSH is used, command line dialogs are shown!
         </TranslationItem>
         <TranslationItem Name="_closePullRequestBtn" Property="Text">
           <Source>Close pull request</Source>
-          <Value>Stäng ryckförfrågning</Value>
+          <Value>Stäng pull-förfrågning</Value>
         </TranslationItem>
-        <TranslationItem Name="_fetchBtn" Property="Text" type="unfinished">
+        <TranslationItem Name="_fetchBtn" Property="Text">
           <Source>Fetch to pr/ branch</Source>
-          <Value />
+          <Value>Hämta till "pr/"-gren</Value>
         </TranslationItem>
-        <TranslationItem Name="_postComment" Property="Text" type="unfinished">
+        <TranslationItem Name="_postComment" Property="Text">
           <Source>Post comment</Source>
-          <Value />
+          <Value>Skicka kommentar
+</Value>
         </TranslationItem>
         <TranslationItem Name="_refreshCommentsBtn" Property="Text" type="unfinished">
           <Source>Refresh</Source>
           <Value>Ladda om</Value>
         </TranslationItem>
-        <TranslationItem Name="_strCouldNotAddRemote" Property="Text" type="unfinished">
+        <TranslationItem Name="_strCouldNotAddRemote" Property="Text">
           <Source>Could not add remote with name {0} and URL {1}</Source>
-          <Value />
+          <Value>Kunde ej lägga till fjärrförvaring kallad {0} med URL {1}</Value>
         </TranslationItem>
-        <TranslationItem Name="_strCouldNotLoadDiscussion" Property="Text" type="unfinished">
+        <TranslationItem Name="_strCouldNotLoadDiscussion" Property="Text">
           <Source>Could not load discussion!</Source>
-          <Value />
+          <Value>Kunde inte ladda diskussion!</Value>
         </TranslationItem>
-        <TranslationItem Name="_strError" Property="Text" type="unfinished">
+        <TranslationItem Name="_strError" Property="Text">
           <Source>Error</Source>
           <Value>Fel</Value>
         </TranslationItem>
-        <TranslationItem Name="_strFailedToClosePullRequest" Property="Text" type="unfinished">
+        <TranslationItem Name="_strFailedToClosePullRequest" Property="Text">
           <Source>Failed to close pull request!</Source>
-          <Value />
+          <Value>Kunde ej stänga pull-förfrågan!</Value>
         </TranslationItem>
-        <TranslationItem Name="_strFailedToFetchPullData" Property="Text" type="unfinished">
+        <TranslationItem Name="_strFailedToFetchPullData" Property="Text">
           <Source>Failed to fetch pull data!</Source>
-          <Value />
+          <Value>Kunde ej hämta pull-data!</Value>
         </TranslationItem>
-        <TranslationItem Name="_strFailedToLoadDiffData" Property="Text" type="unfinished">
+        <TranslationItem Name="_strFailedToLoadDiffData" Property="Text">
           <Source>Failed to load diff data!</Source>
-          <Value />
+          <Value>Kunde ej ladda diff-data!</Value>
         </TranslationItem>
-        <TranslationItem Name="_strFailedToLoadDiscussionItem" Property="Text" type="unfinished">
+        <TranslationItem Name="_strFailedToLoadDiscussionItem" Property="Text">
           <Source>Failed to post discussion item!</Source>
-          <Value />
+          <Value>Kunde ej skicka diskussionsinlägg!</Value>
         </TranslationItem>
         <TranslationItem Name="_strLoading" Property="Text">
           <Source> : LOADING : </Source>
           <Value>: LADDAR :</Value>
         </TranslationItem>
-        <TranslationItem Name="_strRemoteAlreadyExist" Property="Text" type="unfinished">
+        <TranslationItem Name="_strRemoteAlreadyExist" Property="Text">
           <Source>ERROR: Remote with name {0} already exists but it does not point to the same repository!
 Details: Is {1} expected {2}</Source>
-          <Value />
+          <Value>FEL: Fjärrförvaringen kallad {0} finns redan men pekar inte på samma förvaring!
+Detaljer: Är {1} men {2} förväntades.</Value>
         </TranslationItem>
-        <TranslationItem Name="_strUnableUnderstandPatch" Property="Text" type="unfinished">
+        <TranslationItem Name="_strUnableUnderstandPatch" Property="Text">
           <Source>Error: Unable to understand patch</Source>
-          <Value />
+          <Value>Fel: Omöjligt att tolka patchen</Value>
         </TranslationItem>
         <TranslationItem Name="columnHeader2" Property="Text">
           <Source>Heading</Source>
@@ -7582,25 +7587,9 @@ Details: Is {1} expected {2}</Source>
           <Source>Checkout branch</Source>
           <Value>Checka ut gren</Value>
         </TranslationItem>
-        <TranslationItem Name="CheckoutAfterCreate" Property="Text" type="obsolete">
-          <Source>Checkout after create</Source>
-          <Value>Checka ut efter skapande</Value>
-        </TranslationItem>
-        <TranslationItem Name="Ok" Property="Text" type="obsolete">
-          <Source>Create branch</Source>
-          <Value>Skapa gren</Value>
-        </TranslationItem>
         <TranslationItem Name="_branchCaption" Property="Text" type="obsolete">
           <Source>Branch</Source>
           <Value>Gren</Value>
-        </TranslationItem>
-        <TranslationItem Name="_selectOneRevision" Property="Text" type="obsolete">
-          <Source>Select 1 revision to create the branch on.</Source>
-          <Value>Välj en revision att skapa grenen på.</Value>
-        </TranslationItem>
-        <TranslationItem Name="label1" Property="Text" type="obsolete">
-          <Source>Branch name</Source>
-          <Value>Namn på gren</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -7614,29 +7603,13 @@ Details: Is {1} expected {2}</Source>
           <Source>Orphan</Source>
           <Value>Föräldralös</Value>
         </TranslationItem>
-        <TranslationItem Name="_branchNameIsEmpty" Property="Text" type="obsolete">
-          <Source>Enter branch name.</Source>
-          <Value>Välj namn på gren.</Value>
-        </TranslationItem>
-        <TranslationItem Name="_branchNameIsNotValud" Property="Text" type="obsolete">
-          <Source>“{0}” is not valid branch name.</Source>
-          <Value>"{0}" är ej ett giltigt grennamn.</Value>
-        </TranslationItem>
       </translationItems>
     </TranslationCategory>
     <TranslationCategory Name="FormCheckout">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text" type="obsolete">
-          <Source>Checkout revision</Source>
-          <Value>Checka ut revision</Value>
-        </TranslationItem>
         <TranslationItem Name="Force" Property="Text" type="obsolete">
           <Source>Force</Source>
           <Value>Tvinga</Value>
-        </TranslationItem>
-        <TranslationItem Name="_noRevisionSelectedMsgBox" Property="Text" type="obsolete">
-          <Source>Select 1 revision to checkout.</Source>
-          <Value>Välj en revision att checka ut.</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -7645,14 +7618,6 @@ Details: Is {1} expected {2}</Source>
         <TranslationItem Name="Load" Property="Text" type="obsolete">
           <Source>Open</Source>
           <Value>Öppna</Value>
-        </TranslationItem>
-        <TranslationItem Name="_warningOpenFailed" Property="Text" type="obsolete">
-          <Source>Directory does not exist.</Source>
-          <Value>Katalogen saknas.</Value>
-        </TranslationItem>
-        <TranslationItem Name="_warningOpenFailedCaption" Property="Text" type="obsolete">
-          <Source>Error</Source>
-          <Value>Fel</Value>
         </TranslationItem>
         <TranslationItem Name="label1" Property="Text" type="obsolete">
           <Source>Directory</Source>
