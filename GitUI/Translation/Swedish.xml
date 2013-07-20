@@ -568,29 +568,29 @@ Vänligen kontrollera att git (msysgit eller cygwin) är installerat eller ange 
     </TranslationCategory>
     <TranslationCategory Name="CommitInfo">
       <translationItems>
-        <TranslationItem Name="addNoteToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="addNoteToolStripMenuItem" Property="Text">
           <Source>Add notes</Source>
-          <Value />
+          <Value>Lägg till anteckningar</Value>
         </TranslationItem>
-        <TranslationItem Name="containedInBranches" Property="Text" type="unfinished">
+        <TranslationItem Name="containedInBranches" Property="Text">
           <Source>Contained in branches:</Source>
-          <Value />
+          <Value>Finns på grenar:</Value>
         </TranslationItem>
-        <TranslationItem Name="containedInNoBranch" Property="Text" type="unfinished">
+        <TranslationItem Name="containedInNoBranch" Property="Text">
           <Source>Contained in no branch</Source>
-          <Value />
+          <Value>Finns ej med på någon gren</Value>
         </TranslationItem>
-        <TranslationItem Name="containedInNoTag" Property="Text" type="unfinished">
+        <TranslationItem Name="containedInNoTag" Property="Text">
           <Source>Contained in no tag</Source>
-          <Value />
+          <Value>Finns ej med i någon tagg</Value>
         </TranslationItem>
-        <TranslationItem Name="containedInTags" Property="Text" type="unfinished">
+        <TranslationItem Name="containedInTags" Property="Text">
           <Source>Contained in tags:</Source>
-          <Value />
+          <Value>Finns med i taggar:</Value>
         </TranslationItem>
-        <TranslationItem Name="copyCommitInfoToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="copyCommitInfoToolStripMenuItem" Property="Text">
           <Source>Copy commit info</Source>
-          <Value />
+          <Value>Kopiera commit-information</Value>
         </TranslationItem>
         <TranslationItem Name="showContainedInBranchesRemoteIfNoLocalToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Show remote branches only when no local branch contains this commit</Source>
@@ -786,7 +786,7 @@ Värde:  {2} = {3}</Value>
         </TranslationItem>
         <TranslationItem Name="label3" Property="Text" type="unfinished">
           <Source>Target repository:</Source>
-          <Value />
+          <Value>Mållager:</Value>
         </TranslationItem>
         <TranslationItem Name="label4" Property="Text" type="unfinished">
           <Source>Your branch:</Source>
@@ -810,7 +810,7 @@ Värde:  {2} = {3}</Value>
         </TranslationItem>
         <TranslationItem Name="RecentRepositories" Property="Title">
           <Source>Recent Repositories</Source>
-          <Value>Senaste förvaringar</Value>
+          <Value>Senast använda lager</Value>
         </TranslationItem>
         <TranslationItem Name="_showCurrentBranch" Property="Text">
           <Source>Show current branch</Source>
@@ -818,19 +818,19 @@ Värde:  {2} = {3}</Value>
         </TranslationItem>
         <TranslationItem Name="cloneFork" Property="Text">
           <Source>Clone {0} repository</Source>
-          <Value>Klona förvaringen {0}</Value>
+          <Value>Klona lagret {0}</Value>
         </TranslationItem>
         <TranslationItem Name="cloneRepository" Property="Text">
           <Source>Clone repository</Source>
-          <Value>Klona förvaring</Value>
+          <Value>Klona lager</Value>
         </TranslationItem>
         <TranslationItem Name="cloneSvnRepository" Property="Text">
           <Source>Clone SVN repository</Source>
-          <Value>Klona SVN-förvaring</Value>
+          <Value>Klona SVN-lager</Value>
         </TranslationItem>
         <TranslationItem Name="createRepository" Property="Text">
           <Source>Create new repository</Source>
-          <Value>Skapa ny förvaring</Value>
+          <Value>Skapa nytt lager</Value>
         </TranslationItem>
         <TranslationItem Name="develop" Property="Text">
           <Source>Develop</Source>
@@ -840,7 +840,9 @@ Värde:  {2} = {3}</Value>
           <Source>The selected item is not a valid git repository.
 
 Do you want to abort and remove it from the recent repositories list?</Source>
-          <Value />
+          <Value>Valt element är inget giltigt git-lager.
+
+Vill du avbryta och ta bort det från listan över senast använda lager?</Value>
         </TranslationItem>
         <TranslationItem Name="directoryIsNotAValidRepositoryCaption" Property="Text" type="unfinished">
           <Source>Open</Source>
@@ -850,7 +852,9 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>The selected item is not a valid git repository.
 
 Do you want to open it?</Source>
-          <Value />
+          <Value>Valt element är inget giltigt git-lager.
+
+Vill du öppna det?</Value>
         </TranslationItem>
         <TranslationItem Name="donate" Property="Text">
           <Source>Donate</Source>
@@ -862,7 +866,7 @@ Do you want to open it?</Source>
         </TranslationItem>
         <TranslationItem Name="openRepository" Property="Text">
           <Source>Open repository</Source>
-          <Value>Öppna förvaring</Value>
+          <Value>Öppna lager</Value>
         </TranslationItem>
         <TranslationItem Name="translate" Property="Text">
           <Source>Translate</Source>
@@ -934,7 +938,7 @@ Do you want to open it?</Source>
         </TranslationItem>
         <TranslationItem Name="RepositoriesType" Property="Text">
           <Source>Repositories</Source>
-          <Value>Förvaringar</Value>
+          <Value>Lager</Value>
         </TranslationItem>
         <TranslationItem Name="RssFeedType" Property="Text">
           <Source>RSS Feed</Source>
@@ -1864,12 +1868,12 @@ compare with first:</Source>
         <TranslationItem Name="cloneSVNToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Clone SVN repository...</Source>
           <OldSource>Clone SVN repository</OldSource>
-          <Value>Klona SVN-förvaring</Value>
+          <Value>Klona SVN-lager</Value>
         </TranslationItem>
         <TranslationItem Name="cloneToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Clone repository...</Source>
           <OldSource>Clone repository</OldSource>
-          <Value>Klona förvaring</Value>
+          <Value>Klona lager</Value>
         </TranslationItem>
         <TranslationItem Name="closeToolStripMenuItem" Property="Text">
           <Source>Close (go to Dashboard)</Source>
@@ -2060,7 +2064,7 @@ Do you want to abort and remove it from the recent repositories list?</Source>
         <TranslationItem Name="initNewRepositoryToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Create new repository...</Source>
           <OldSource>Create new repository</OldSource>
-          <Value>Skapa ny förvaring</Value>
+          <Value>Skapa nytt lager</Value>
         </TranslationItem>
         <TranslationItem Name="kGitToolStripMenuItem" Property="Text">
           <Source>GitK</Source>
@@ -2125,8 +2129,7 @@ Do you want to abort and remove it from the recent repositories list?</Source>
         </TranslationItem>
         <TranslationItem Name="patchToolStripMenuItem" Property="Text">
           <Source>View patch file...</Source>
-          <Value>Visa buggfixfil...
-</Value>
+          <Value>Visa buggfixfil...</Value>
         </TranslationItem>
         <TranslationItem Name="pluginSettingsToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Settings</Source>
@@ -2159,7 +2162,7 @@ Do you want to abort and remove it from the recent repositories list?</Source>
         </TranslationItem>
         <TranslationItem Name="recentToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Recent Repositories</Source>
-          <Value>Senaste förvaringar</Value>
+          <Value>Senast använda lager</Value>
         </TranslationItem>
         <TranslationItem Name="refreshDashboardToolStripMenuItem" Property="Text">
           <Source>Refresh</Source>
@@ -2175,7 +2178,7 @@ Do you want to abort and remove it from the recent repositories list?</Source>
         </TranslationItem>
         <TranslationItem Name="repoSettingsToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Repository settings</Source>
-          <Value />
+          <Value>Lagerinställningar</Value>
         </TranslationItem>
         <TranslationItem Name="reportAnIssueToolStripMenuItem" Property="Text">
           <Source>Report an issue</Source>
@@ -2183,7 +2186,7 @@ Do you want to abort and remove it from the recent repositories list?</Source>
         </TranslationItem>
         <TranslationItem Name="repositoryToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Repository</Source>
-          <Value />
+          <Value>Lager</Value>
         </TranslationItem>
         <TranslationItem Name="resetFileToAToolStripMenuItem" Property="Text">
           <Source>A</Source>
@@ -2242,9 +2245,9 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Stash pop</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="stashToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="stashToolStripMenuItem" Property="Text">
           <Source>Stash changes...</Source>
-          <Value />
+          <Value>Göm ändringar...</Value>
         </TranslationItem>
         <TranslationItem Name="synchronizeAllSubmodulesToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Synchronize all submodules</Source>
@@ -2310,9 +2313,9 @@ Do you want to abort and remove it from the recent repositories list?</Source>
           <Source>Recover lost objects...</Source>
           <Value>Återställ förlorade objekt...</Value>
         </TranslationItem>
-        <TranslationItem Name="viewStashToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="viewStashToolStripMenuItem" Property="Text">
           <Source>View stash</Source>
-          <Value />
+          <Value>Visa gömställe</Value>
         </TranslationItem>
         <TranslationItem Name="viewToolStripMenuItem" Property="Text">
           <Source>View</Source>
@@ -2446,8 +2449,7 @@ Enter valid branch name or select predefined value.</Source>
       <translationItems>
         <TranslationItem Name="$this" Property="Text">
           <Source>Cherry pick commit</Source>
-          <Value>Välj ut commit
-</Value>
+          <Value>Välj ut commit</Value>
         </TranslationItem>
         <TranslationItem Name="AutoCommit" Property="Text">
           <Source>Automatically create a commit</Source>
@@ -2572,11 +2574,11 @@ revision:</Source>
         </TranslationItem>
         <TranslationItem Name="_reallyCleanupQuestion" Property="Text" type="unfinished">
           <Source>Are you sure you want to cleanup the repository?</Source>
-          <Value />
+          <Value>Är du säker på att du vill städa upp lagret?</Value>
         </TranslationItem>
         <TranslationItem Name="_reallyCleanupQuestionCaption" Property="Text" type="unfinished">
           <Source>Cleanup</Source>
-          <Value />
+          <Value>Städa upp</Value>
         </TranslationItem>
         <TranslationItem Name="checkBoxPathFilter" Property="Text" type="unfinished">
           <Source>Affect the following path(s) only:</Source>
@@ -2604,11 +2606,11 @@ revision:</Source>
         </TranslationItem>
         <TranslationItem Name="Central" Property="Text" type="unfinished">
           <Source>Central repository, no working dir  (--bare --shared=all)</Source>
-          <Value>Central förvaring, ingen arbetskatalog (--bare --shared=all)</Value>
+          <Value>Centralt lager, ingen arbetskatalog  (--bare --shared=all)</Value>
         </TranslationItem>
         <TranslationItem Name="CentralRepository" Property="Text" type="unfinished">
           <Source>P&amp;ublic repository, no working dir  (--bare)</Source>
-          <Value />
+          <Value>P&amp;ublikt lager, ingen arbetskatalog  (--bare)</Value>
         </TranslationItem>
         <TranslationItem Name="FromBrowse" Property="Text" type="unfinished">
           <Source>&amp;Browse</Source>
@@ -2624,11 +2626,11 @@ revision:</Source>
         </TranslationItem>
         <TranslationItem Name="Personal" Property="Text" type="unfinished">
           <Source>Personal repository</Source>
-          <Value>Personlig förvaring</Value>
+          <Value>Personligt lager</Value>
         </TranslationItem>
         <TranslationItem Name="PersonalRepository" Property="Text" type="unfinished">
           <Source>&amp;Personal repository</Source>
-          <Value />
+          <Value>&amp;Personligt lager</Value>
         </TranslationItem>
         <TranslationItem Name="ToBrowse" Property="Text" type="unfinished">
           <Source>B&amp;rowse</Source>
@@ -2645,12 +2647,14 @@ revision:</Source>
         <TranslationItem Name="_infoNewRepositoryLocation" Property="Text" type="unfinished">
           <Source>The repository will be cloned to a new directory located here:
 {0}</Source>
-          <Value />
+          <Value>Lagret kommer att klonas till en ny katalog som finns här:
+{0}</Value>
         </TranslationItem>
         <TranslationItem Name="_questionOpenRepo" Property="Text" type="unfinished">
           <Source>The repository has been cloned successfully.
 Do you want to open the new repository "{0}" now?</Source>
-          <Value />
+          <Value>Lagret har klonats framgångsrikt.
+Vill du öppna det nya lagret "{0}" nu?</Value>
         </TranslationItem>
         <TranslationItem Name="_questionOpenRepoCaption" Property="Text" type="unfinished">
           <Source>Open</Source>
@@ -2666,11 +2670,11 @@ Do you want to open the new repository "{0}" now?</Source>
         </TranslationItem>
         <TranslationItem Name="groupBox1" Property="Text" type="unfinished">
           <Source>Repository type</Source>
-          <Value>Förvaringstyp</Value>
+          <Value>Lagertyp</Value>
         </TranslationItem>
         <TranslationItem Name="label1" Property="Text" type="unfinished">
           <Source>&amp;Repository to clone:</Source>
-          <Value />
+          <Value>&amp;Lager att klona:</Value>
         </TranslationItem>
         <TranslationItem Name="label2" Property="Text" type="unfinished">
           <Source>&amp;Destination:</Source>
@@ -3019,9 +3023,9 @@ Do you want to continue?</Source>
           <Source>Open</Source>
           <Value>Öppna</Value>
         </TranslationItem>
-        <TranslationItem Name="openWithDifftoolToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="openWithDifftoolToolStripMenuItem" Property="Text">
           <Source>Open with difftool</Source>
-          <Value />
+          <Value>Öppna med diff-verktyg</Value>
         </TranslationItem>
         <TranslationItem Name="openWithToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Open with</Source>
@@ -3123,9 +3127,9 @@ Do you want to continue?</Source>
           <Source>Open with</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="toolStripMenuItem9" Property="Text" type="unfinished">
+        <TranslationItem Name="toolStripMenuItem9" Property="Text">
           <Source>Open with difftool</Source>
-          <Value />
+          <Value>Öppna med diff-verktyg</Value>
         </TranslationItem>
         <TranslationItem Name="toolUnstageAllItem" Property="Text" type="unfinished">
           <Source>Unstage All</Source>
@@ -3470,7 +3474,7 @@ this using `force delete´.
         </TranslationItem>
         <TranslationItem Name="label2" Property="Text" type="unfinished">
           <Source>This will delete the selected tag from the (local) repository.</Source>
-          <Value />
+          <Value>Detta kommer att ta bort den valda taggen från (det lokala) lagret.</Value>
         </TranslationItem>
         <TranslationItem Name="label3" Property="Text" type="unfinished">
           <Source>(includes information about deleting tags which are already pushed)</Source>
@@ -3595,9 +3599,9 @@ If you are not sure just close this window.</Source>
           <Source>Manipulate commit</Source>
           <Value />
         </TranslationItem>
-        <TranslationItem Name="openWithDifftoolToolStripMenuItem" Property="Text" type="unfinished">
+        <TranslationItem Name="openWithDifftoolToolStripMenuItem" Property="Text">
           <Source>Open with difftool</Source>
-          <Value />
+          <Value>Öppna med diff-verktyg</Value>
         </TranslationItem>
         <TranslationItem Name="revertCommitToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Revert commit</Source>
@@ -3830,7 +3834,7 @@ to %HOMEDRIVE%%HOMEPATH% if empty. Change the default behaviour only if you expe
         </TranslationItem>
         <TranslationItem Name="_selectRemote" Property="Text" type="unfinished">
           <Source>Please select a remote repository</Source>
-          <Value />
+          <Value>Välj ett fjärrlager</Value>
         </TranslationItem>
         <TranslationItem Name="labelChange" Property="Text" type="unfinished">
           <Source>Change:</Source>
@@ -3882,7 +3886,7 @@ to %HOMEDRIVE%%HOMEPATH% if empty. Change the default behaviour only if you expe
         </TranslationItem>
         <TranslationItem Name="_selectRemote" Property="Text" type="unfinished">
           <Source>Please select a remote repository</Source>
-          <Value />
+          <Value>Välj ett fjärrlager</Value>
         </TranslationItem>
         <TranslationItem Name="labelBranch" Property="Text" type="unfinished">
           <Source>Branch:</Source>
@@ -4038,15 +4042,15 @@ _ReSharper*/</Source>
         </TranslationItem>
         <TranslationItem Name="alwaysOnTopCheckBox" Property="Text" type="unfinished">
           <Source>Always on top</Source>
-          <Value />
+          <Value>Alltid överst</Value>
         </TranslationItem>
         <TranslationItem Name="tabPageCommandCache" Property="Text" type="unfinished">
           <Source>Command cache</Source>
-          <Value />
+          <Value>Kommandocache</Value>
         </TranslationItem>
         <TranslationItem Name="tabPageCommandLog" Property="Text" type="unfinished">
           <Source>Command log</Source>
-          <Value />
+          <Value>Kommandologg</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -4170,7 +4174,7 @@ defaultrebase=0</Source>
       <translationItems>
         <TranslationItem Name="$this" Property="Text">
           <Source>Initialize new repository</Source>
-          <Value>Initiera ny förvaring</Value>
+          <Value>Initiera nytt lager</Value>
         </TranslationItem>
         <TranslationItem Name="Browse" Property="Text">
           <Source>Browse</Source>
@@ -4178,7 +4182,7 @@ defaultrebase=0</Source>
         </TranslationItem>
         <TranslationItem Name="Central" Property="Text">
           <Source>Central repository, no working dir  (--bare --shared=all)</Source>
-          <Value>Central förvaring, ingen arbetskatalog (--bare --shared=all)</Value>
+          <Value>Centralt lager, ingen arbetskatalog  (--bare --shared=all)</Value>
         </TranslationItem>
         <TranslationItem Name="Init" Property="Text">
           <Source>Initialize</Source>
@@ -4186,7 +4190,7 @@ defaultrebase=0</Source>
         </TranslationItem>
         <TranslationItem Name="Personal" Property="Text">
           <Source>Personal repository</Source>
-          <Value>Personlig förvaring</Value>
+          <Value>Personligt lager</Value>
         </TranslationItem>
         <TranslationItem Name="_chooseDirectory" Property="Text">
           <Source>Please choose a directory.</Source>
@@ -4199,7 +4203,7 @@ defaultrebase=0</Source>
         <TranslationItem Name="_chooseDirectoryNotFile" Property="Text">
           <Source>Cannot initialize a new repository on a file.
 Please choose a directory.</Source>
-          <Value>Kan ej initiera en ny förvaring på en fil.
+          <Value>Kan ej initiera ett nytt lager på en fil.
 Vänligen välj en katalog.</Value>
         </TranslationItem>
         <TranslationItem Name="_chooseDirectoryNotFileCaption" Property="Text" type="unfinished">
@@ -4208,11 +4212,11 @@ Vänligen välj en katalog.</Value>
         </TranslationItem>
         <TranslationItem Name="_initMsgBoxCaption" Property="Text">
           <Source>Initialize new repository</Source>
-          <Value>Initiera ny förvaring</Value>
+          <Value>Initiera nytt lager</Value>
         </TranslationItem>
         <TranslationItem Name="groupBox1" Property="Text">
           <Source>Repository type</Source>
-          <Value>Förvaringstyp</Value>
+          <Value>Lagertyp</Value>
         </TranslationItem>
         <TranslationItem Name="label1" Property="Text" type="unfinished">
           <Source>Directory</Source>
@@ -4367,7 +4371,7 @@ ancestor tree. </Source>
       <translationItems>
         <TranslationItem Name="$this" Property="Text" type="unfinished">
           <Source>Open local repository</Source>
-          <Value />
+          <Value>Öppna lokalt lager</Value>
         </TranslationItem>
         <TranslationItem Name="Load" Property="Text" type="unfinished">
           <Source>Open</Source>
@@ -4548,7 +4552,7 @@ This will initialize and update all submodules recursive.</Source>
         </TranslationItem>
         <TranslationItem Name="_selectRemoteRepository" Property="Text" type="unfinished">
           <Source>Please select a remote repository</Source>
-          <Value />
+          <Value>Välj ett fjärrlager</Value>
         </TranslationItem>
         <TranslationItem Name="_selectSourceDirectory" Property="Text" type="unfinished">
           <Source>Please select a source directory</Source>
@@ -4709,7 +4713,7 @@ Are you sure you want to push this branch?</Source>
         </TranslationItem>
         <TranslationItem Name="_selectRemote" Property="Text" type="unfinished">
           <Source>Please select a remote repository</Source>
-          <Value />
+          <Value>Välj ett fjärrlager</Value>
         </TranslationItem>
         <TranslationItem Name="_selectTag" Property="Text" type="unfinished">
           <Source>You need to select a tag to push or select "Push all tags".</Source>
@@ -5008,7 +5012,7 @@ Ingen ny plats för grenen.</Value>
         </TranslationItem>
         <TranslationItem Name="RemoteCombo" Property="HeaderText" type="unfinished">
           <Source>Remote repository</Source>
-          <Value />
+          <Value>Fjärrlager</Value>
         </TranslationItem>
         <TranslationItem Name="Save" Property="Text" type="unfinished">
           <Source>Save changes</Source>
@@ -5118,7 +5122,7 @@ Value has been reset to empty value.</Source>
         </TranslationItem>
         <TranslationItem Name="label5" Property="Text" type="unfinished">
           <Source>Remote repository</Source>
-          <Value />
+          <Value>Fjärrlager</Value>
         </TranslationItem>
         <TranslationItem Name="label6" Property="Text" type="unfinished">
           <Source>Default merge with</Source>
@@ -5993,7 +5997,8 @@ Do you want to trust this host key and then try again?</Source>
         <TranslationItem Name="_questionOpenRepo" Property="Text" type="unfinished">
           <Source>The repository has been cloned successfully.
 Do you want to open the new repository "{0}" now?</Source>
-          <Value />
+          <Value>Lagret har klonats framgångsrikt.
+Vill du öppna det nya lagret "{0}" nu?</Value>
         </TranslationItem>
         <TranslationItem Name="_questionOpenRepoCaption" Property="Text" type="unfinished">
           <Source>Open</Source>
@@ -6025,7 +6030,7 @@ Do you want to open the new repository "{0}" now?</Source>
         </TranslationItem>
         <TranslationItem Name="label1" Property="Text" type="unfinished">
           <Source>Svn repository to clone</Source>
-          <Value />
+          <Value>SVN-lager att klona</Value>
         </TranslationItem>
         <TranslationItem Name="label2" Property="Text" type="unfinished">
           <Source>Destination</Source>
@@ -6537,7 +6542,7 @@ Context menu for additional operations</Source>
         </TranslationItem>
         <TranslationItem Name="label50" Property="Text">
           <Source>Git Extensions can use msysgit or cygwin to access git repositories. Set the correct paths below.</Source>
-          <Value>Git Extensions kan använda msysgit eller cygwin för att komma åt git-förvaringar. Ange korrekta sökvägar nedan.</Value>
+          <Value>Git Extensions kan använda msysgit eller cygwin för att komma åt git-lager. Ange korrekta sökvägar nedan.</Value>
         </TranslationItem>
         <TranslationItem Name="label51" Property="Text">
           <Source>The global config file located in the location stored environment variable %HOME%. By default %HOME% will be set 
@@ -6766,11 +6771,11 @@ hjälp</Value>
         </TranslationItem>
         <TranslationItem Name="_notValidGitDirectory" Property="Text">
           <Source>The current directory is not a valid git repository.</Source>
-          <Value>Aktuell katalog är ingen giltig git-förvaring.</Value>
+          <Value>Aktuell katalog är inget giltigt git-lager.</Value>
         </TranslationItem>
         <TranslationItem Name="_notValidGitSVNDirectory" Property="Text">
           <Source>The current directory is not a valid git-svn repository.</Source>
-          <Value>Aktuell katalog är ingen giltig git-svn-förvaring.</Value>
+          <Value>Aktuell katalog är inget giltigt git-svn-lager.</Value>
         </TranslationItem>
         <TranslationItem Name="_pageantNotFound" Property="Text">
           <Source>Cannot load SSH key. PuTTY is not configured properly.</Source>
@@ -6842,7 +6847,7 @@ hjälp</Value>
         </TranslationItem>
         <TranslationItem Name="CloneRepository" Property="Text" type="unfinished">
           <Source>Clone repository</Source>
-          <Value>Klona förvaring</Value>
+          <Value>Klona lager</Value>
         </TranslationItem>
         <TranslationItem Name="Commit" Property="Text" type="unfinished">
           <Source>Commit</Source>
@@ -6874,7 +6879,7 @@ hjälp</Value>
         </TranslationItem>
         <TranslationItem Name="InitRepository" Property="Text" type="unfinished">
           <Source>Initialize repository</Source>
-          <Value />
+          <Value>Initiera lager</Value>
         </TranslationItem>
         <TranslationItem Name="Message" Property="HeaderText" type="unfinished">
           <Source>Message</Source>
@@ -7014,7 +7019,7 @@ If this is a central repository (bare repository without a working dir):
         </TranslationItem>
         <TranslationItem Name="label2" Property="Text" type="unfinished">
           <Source>The current working dir is not a git repository.</Source>
-          <Value />
+          <Value>Aktuell arbetskatalog är inget git-lager.</Value>
         </TranslationItem>
         <TranslationItem Name="manipulateCommitToolStripMenuItem" Property="Text" type="unfinished">
           <Source>Advanced</Source>
@@ -7254,7 +7259,7 @@ If this is a central repository (bare repository without a working dir):
       <translationItems>
         <TranslationItem Name="DistributedRB" Property="Text">
           <Source>Distributed with current repository</Source>
-          <Value>Distribuerad med aktuell förvaring</Value>
+          <Value>Distribuerad med aktuellt lager</Value>
         </TranslationItem>
         <TranslationItem Name="EffectiveRB" Property="Text">
           <Source>Effective</Source>
@@ -7262,11 +7267,11 @@ If this is a central repository (bare repository without a working dir):
         </TranslationItem>
         <TranslationItem Name="GlobalRB" Property="Text">
           <Source>Global for all repositories</Source>
-          <Value>Globalt för alla förvaringar</Value>
+          <Value>Globalt för alla lager</Value>
         </TranslationItem>
         <TranslationItem Name="LocalRB" Property="Text">
           <Source>Local for current repository</Source>
-          <Value>Lokalt för aktuell förvaring</Value>
+          <Value>Lokalt för aktuellt lager</Value>
         </TranslationItem>
         <TranslationItem Name="label1" Property="Text">
           <Source>Settings source:</Source>
@@ -7302,7 +7307,7 @@ när alla element visas:</Value>
         </TranslationItem>
         <TranslationItem Name="AutostartPageant" Property="Text">
           <Source>Automatically start authentication client when a private key is configured for a remote</Source>
-          <Value>Starta autentiseringsklient automatiskt när en privat nyckel är vald för en fjärrförvaring</Value>
+          <Value>Starta autentiseringsklient automatiskt när en privat nyckel är vald för ett fjärrlager</Value>
         </TranslationItem>
         <TranslationItem Name="OpenSSH" Property="Text">
           <Source>OpenSSH</Source>
@@ -7502,7 +7507,7 @@ När OpenSSH används så visas dialoger med kommandofönster!</Value>
         </TranslationItem>
         <TranslationItem Name="_chooseRepo" Property="Text">
           <Source>Choose repository:</Source>
-          <Value>Välj förvaring:</Value>
+          <Value>Välj lager:</Value>
         </TranslationItem>
         <TranslationItem Name="_closePullRequestBtn" Property="Text">
           <Source>Close pull request</Source>
@@ -7523,7 +7528,7 @@ När OpenSSH används så visas dialoger med kommandofönster!</Value>
         </TranslationItem>
         <TranslationItem Name="_strCouldNotAddRemote" Property="Text">
           <Source>Could not add remote with name {0} and URL {1}</Source>
-          <Value>Kunde ej lägga till fjärrförvaring kallad {0} med URL {1}</Value>
+          <Value>Kunde ej lägga till fjärrlager kallat {0} med URL {1}</Value>
         </TranslationItem>
         <TranslationItem Name="_strCouldNotLoadDiscussion" Property="Text">
           <Source>Could not load discussion!</Source>
@@ -7556,7 +7561,7 @@ När OpenSSH används så visas dialoger med kommandofönster!</Value>
         <TranslationItem Name="_strRemoteAlreadyExist" Property="Text">
           <Source>ERROR: Remote with name {0} already exists but it does not point to the same repository!
 Details: Is {1} expected {2}</Source>
-          <Value>FEL: Fjärrförvaringen kallad {0} finns redan men pekar inte på samma förvaring!
+          <Value>FEL: Fjärrlagret kallat {0} finns redan men pekar inte på samma lager!
 Detaljer: Är {1} men {2} förväntades.</Value>
         </TranslationItem>
         <TranslationItem Name="_strUnableUnderstandPatch" Property="Text">
